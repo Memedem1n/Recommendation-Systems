@@ -1,0 +1,3699 @@
+{
+  "retinoids": [
+    "age"
+  ],
+  "vitamin c": [
+    "age"
+  ],
+  "niacinamide": [
+    "acne",
+    "age"
+  ],
+  "ahas glycolic": [
+    "age"
+  ],
+  "lactic": [
+    "age"
+  ],
+  "azelaic acid": [
+    "age",
+    "redness"
+  ],
+  "kojic acid": [
+    "age"
+  ],
+  "arbutin": [
+    "age"
+  ],
+  "bakuchiol": [
+    "age"
+  ],
+  "carnosine": [
+    "age"
+  ],
+  "antioxidants": [
+    "age"
+  ],
+  "sunscreen": [
+    "age"
+  ],
+  "orbital septum fat repositioning": [
+    "eyebag"
+  ],
+  "svf stromal vascular fraction gel fillers": [
+    "eyebag"
+  ],
+  "modified transconjunctival lower blepharoplasty deframing and decompression of lofcs orl": [
+    "eyebag"
+  ],
+  "ttl release": [
+    "eyebag"
+  ],
+  "aell transection": [
+    "eyebag"
+  ],
+  "partial lateral retinaculum release": [
+    "eyebag"
+  ],
+  "lofc repositioning": [
+    "eyebag"
+  ],
+  "minimal resection adjuncts hyaluronic acid fillers": [
+    "eyebag"
+  ],
+  "botulinum toxin": [
+    "eyebag"
+  ],
+  "0 1 2 kda hyaluronic acid ha2k lotion": [
+    "eyebag"
+  ],
+  "hierarchical attention transformer hatrans ai model smartphone image analysis multi-label classification": [
+    "eyebag"
+  ],
+  "orbital fat repositioning transconjunctival blepharoplasty tconb transcutaneous blepharoplasty tcutb midface lifting laser fillers": [
+    "eyebag",
+    "wrinkle"
+  ],
+  "intense pulsed light ipl": [
+    "eyebag"
+  ],
+  "tearcare meibomian gland expression mgx": [
+    "eyebag"
+  ],
+  "lipiflow": [
+    "eyebag"
+  ],
+  "low-level light therapy lllt": [
+    "eyebag"
+  ],
+  "acupuncture": [
+    "eyebag"
+  ],
+  "petroleum jelly petrolatum white soft paraffin": [
+    "acne"
+  ],
+  "vaseline": [
+    "acne"
+  ],
+  "transconjunctival lower blepharoplasty": [
+    "eyebag"
+  ],
+  "autologous orbital fat nanofat grafting": [
+    "eyebag"
+  ],
+  "water": [
+    "moisture"
+  ],
+  "amino acids": [
+    "moisture"
+  ],
+  "pyrrolidone carboxylic acid": [
+    "moisture"
+  ],
+  "lactates": [
+    "moisture"
+  ],
+  "sugars": [
+    "moisture"
+  ],
+  "inorganic acids": [
+    "moisture"
+  ],
+  "peptides": [
+    "moisture"
+  ],
+  "urea": [
+    "moisture"
+  ],
+  "chloride": [
+    "moisture"
+  ],
+  "sodium": [
+    "moisture"
+  ],
+  "potassium": [
+    "moisture"
+  ],
+  "ammonia uric acid": [
+    "moisture"
+  ],
+  "glucosamines": [
+    "moisture"
+  ],
+  "creatinine": [
+    "moisture"
+  ],
+  "calcium": [
+    "moisture"
+  ],
+  "magnesium": [
+    "moisture"
+  ],
+  "citrate": [
+    "moisture"
+  ],
+  "formate": [
+    "moisture"
+  ],
+  "phosphate": [
+    "moisture"
+  ],
+  "aloe vera aloe vera gel": [
+    "moisture"
+  ],
+  "coconut oil": [
+    "moisture"
+  ],
+  "grape seed oil": [
+    "moisture"
+  ],
+  "olive oil": [
+    "moisture"
+  ],
+  "lavender flowers": [
+    "moisture"
+  ],
+  "coconut butter": [
+    "moisture"
+  ],
+  "phenolphthalein": [
+    "moisture"
+  ],
+  "potassium hydroxide": [
+    "moisture"
+  ],
+  "glycyrrhetinic acid": [
+    "moisture",
+    "redness"
+  ],
+  "palmitoyl-ethanolamine": [
+    "moisture"
+  ],
+  "telmesteine": [
+    "moisture"
+  ],
+  "vitis vinifera": [
+    "moisture"
+  ],
+  "ceramide-dominant": [
+    "moisture"
+  ],
+  "water-based water": [
+    "moisture"
+  ],
+  "menthol": [
+    "moisture"
+  ],
+  "mineral oils": [
+    "moisture"
+  ],
+  "hyaluronic acid": [
+    "moisture"
+  ],
+  "ceramides": [
+    "moisture"
+  ],
+  "emollients fatty acids": [
+    "moisture"
+  ],
+  "fatty alcohols": [
+    "moisture"
+  ],
+  "cholesterol": [
+    "moisture"
+  ],
+  "squalene": [
+    "moisture"
+  ],
+  "pseudoceramides": [
+    "moisture"
+  ],
+  "humectants urea": [
+    "moisture"
+  ],
+  "sorbitol": [
+    "moisture"
+  ],
+  "panthenol": [
+    "moisture"
+  ],
+  "glycerol": [
+    "moisture"
+  ],
+  "propylene glycol": [
+    "acne",
+    "eyebag",
+    "moisture",
+    "oiliness",
+    "redness"
+  ],
+  "alpha hydroxy acids": [
+    "moisture"
+  ],
+  "occlusives mineral oil": [
+    "moisture"
+  ],
+  "petroleum jelly": [
+    "moisture"
+  ],
+  "beeswax": [
+    "moisture"
+  ],
+  "silicones": [
+    "moisture"
+  ],
+  "zinc oxide": [
+    "moisture"
+  ],
+  "protein rejuvenators collagen": [
+    "moisture"
+  ],
+  "elastin": [
+    "moisture"
+  ],
+  "keratin": [
+    "moisture"
+  ],
+  "isopropyl palmitate": [
+    "moisture"
+  ],
+  "isostearyl alcohol": [
+    "moisture"
+  ],
+  "decyl oleate": [
+    "moisture"
+  ],
+  "octyl stearate": [
+    "moisture"
+  ],
+  "glyceryl stearate": [
+    "age",
+    "moisture"
+  ],
+  "jojoba oil": [
+    "moisture"
+  ],
+  "castor oil": [
+    "moisture"
+  ],
+  "dimethicone": [
+    "age",
+    "eyebag",
+    "moisture",
+    "redness",
+    "wrinkle"
+  ],
+  "cyclomethicone": [
+    "moisture"
+  ],
+  "octyl octanoate": [
+    "moisture"
+  ],
+  "isopropyl myristate": [
+    "moisture"
+  ],
+  "isopropyl isostearate": [
+    "moisture"
+  ],
+  "diisopropyl dilinoleate": [
+    "moisture"
+  ],
+  "lanolin": [
+    "moisture"
+  ],
+  "stearyl stearate": [
+    "moisture"
+  ],
+  "oil in water": [
+    "moisture"
+  ],
+  "tea tree oil": [
+    "acne",
+    "moisture"
+  ],
+  "chamomile oil": [
+    "moisture"
+  ],
+  "aloe": [
+    "moisture"
+  ],
+  "aloe vera": [
+    "moisture"
+  ],
+  "shea butter": [
+    "moisture"
+  ],
+  "proteins in vegetable oils": [
+    "moisture"
+  ],
+  "free fatty acids": [
+    "moisture"
+  ],
+  "keratins": [
+    "moisture"
+  ],
+  "sodium lauryl sulfate": [
+    "moisture"
+  ],
+  "lactate": [
+    "moisture"
+  ],
+  "methyl nicotinate": [
+    "moisture"
+  ],
+  "humectants glycerin sorbitol": [
+    "moisture"
+  ],
+  "occlusives lanolin": [
+    "moisture"
+  ],
+  "petrolatum": [
+    "moisture"
+  ],
+  "mineral oil": [
+    "moisture",
+    "redness"
+  ],
+  "emmolients squalene": [
+    "moisture"
+  ],
+  "fatty acids": [
+    "moisture"
+  ],
+  "natural moisturizing factor": [
+    "moisture"
+  ],
+  "essential proteins amino acids": [
+    "moisture"
+  ],
+  "ammonia": [
+    "moisture"
+  ],
+  "uric acid": [
+    "moisture"
+  ],
+  "glucosamine": [
+    "moisture"
+  ],
+  "organic acids": [
+    "moisture"
+  ],
+  "nonsteroidal anti-inflammatory mimyx cream": [
+    "moisture"
+  ],
+  "atopiclair": [
+    "moisture"
+  ],
+  "epiceram": [
+    "moisture"
+  ],
+  "free amino acids": [
+    "moisture"
+  ],
+  "pyrrolidone carboxylic acid pca": [
+    "moisture"
+  ],
+  "urocanic acid": [
+    "moisture"
+  ],
+  "lactic acid": [
+    "moisture"
+  ],
+  "ceramide": [
+    "moisture"
+  ],
+  "base humectant glycerin": [
+    "moisture"
+  ],
+  "sodium pca": [
+    "moisture"
+  ],
+  "betaine": [
+    "moisture"
+  ],
+  "occludent dimethicone": [
+    "moisture"
+  ],
+  "petroleum": [
+    "moisture"
+  ],
+  "white soft paraffin": [
+    "moisture"
+  ],
+  "squalane": [
+    "age",
+    "moisture",
+    "wrinkle"
+  ],
+  "caprylic": [
+    "moisture"
+  ],
+  "capric triglyceride": [
+    "moisture"
+  ],
+  "emollient paraffinium liquidum": [
+    "moisture"
+  ],
+  "1": [
+    "moisture"
+  ],
+  "2-hexanediol": [
+    "moisture"
+  ],
+  "caprylyl glycol": [
+    "moisture"
+  ],
+  "liquid paraffin": [
+    "moisture"
+  ],
+  "elaeis guineensis oil": [
+    "moisture"
+  ],
+  "olea europaea fruit oil": [
+    "moisture"
+  ],
+  "olus": [
+    "moisture"
+  ],
+  "ceramide promotor niacinamide": [
+    "moisture"
+  ],
+  "phytosphingosine": [
+    "moisture"
+  ],
+  "fatty acid ceramide np": [
+    "moisture"
+  ],
+  "ceramide i": [
+    "moisture"
+  ],
+  "ceramide eop": [
+    "moisture"
+  ],
+  "carthamus tinctorius": [
+    "moisture"
+  ],
+  "safflower seed oil": [
+    "moisture"
+  ],
+  "ceramide 3": [
+    "moisture"
+  ],
+  "ceramide 6-ii": [
+    "moisture"
+  ],
+  "cetearyl alcohol": [
+    "moisture"
+  ],
+  "cetereath-20": [
+    "moisture"
+  ],
+  "glyceryl stearate se": [
+    "moisture"
+  ],
+  "laureth-3": [
+    "moisture"
+  ],
+  "sodium hydroxide": [
+    "moisture"
+  ],
+  "stearic acid": [
+    "acne",
+    "moisture"
+  ],
+  "xanthan gum": [
+    "moisture"
+  ],
+  "methylparaben": [
+    "moisture"
+  ],
+  "propylparaben": [
+    "moisture"
+  ],
+  "citric acid": [
+    "moisture"
+  ],
+  "trisodium citrate": [
+    "moisture"
+  ],
+  "pentylene gylcol": [
+    "moisture"
+  ],
+  "acetamide mea": [
+    "moisture"
+  ],
+  "carbomer": [
+    "moisture"
+  ],
+  "hydrogenated lecithin": [
+    "moisture"
+  ],
+  "hydroxyethylcellulose": [
+    "moisture"
+  ],
+  "palmitamide mea pea": [
+    "moisture"
+  ],
+  "sarcosine": [
+    "moisture"
+  ],
+  "sodium carbomer": [
+    "moisture"
+  ],
+  "behentrimonium methosulfate": [
+    "moisture"
+  ],
+  "dipotassium edta": [
+    "moisture"
+  ],
+  "polyglyceryl-3 diisostearate": [
+    "moisture"
+  ],
+  "polysorbate 20": [
+    "moisture"
+  ],
+  "potassium phosphate": [
+    "moisture"
+  ],
+  "occlusive agents": [
+    "moisture"
+  ],
+  "hydrocarbons petrolatum": [
+    "moisture"
+  ],
+  "minerail oil": [
+    "moisture"
+  ],
+  "silicone": [
+    "moisture"
+  ],
+  "vegetable oils": [
+    "moisture"
+  ],
+  "vegetable fat": [
+    "moisture"
+  ],
+  "waxes beeswax": [
+    "moisture"
+  ],
+  "emollients": [
+    "moisture"
+  ],
+  "humectants glycerin": [
+    "moisture"
+  ],
+  "pyrrolidine carboxylic acid pca": [
+    "moisture"
+  ],
+  "hydroxy acids": [
+    "moisture"
+  ],
+  "butylhydroxyanisole bha": [
+    "moisture"
+  ],
+  "butylhydroxytoluene bht": [
+    "moisture"
+  ],
+  "colloidal oatmeal avenanthramides": [
+    "redness"
+  ],
+  "licorice glabridin": [
+    "redness"
+  ],
+  "aloe vera aloe barbadensis leaf extract": [
+    "redness"
+  ],
+  "turmeric": [
+    "redness"
+  ],
+  "curcumin": [
+    "redness"
+  ],
+  "chamomile matricaria chamomilla": [
+    "redness"
+  ],
+  "apigenin": [
+    "redness"
+  ],
+  "centella asiatica asiaticoside": [
+    "redness"
+  ],
+  "madecassoside": [
+    "redness"
+  ],
+  "bisabolol": [
+    "redness"
+  ],
+  "flavonoids quercetin": [
+    "redness"
+  ],
+  "kaempferol": [
+    "redness"
+  ],
+  "baicalein": [
+    "redness"
+  ],
+  "rutin": [
+    "redness"
+  ],
+  "boswellic acid": [
+    "redness"
+  ],
+  "niacinamide vitamin b3": [
+    "redness"
+  ],
+  "metronidazole": [
+    "redness"
+  ],
+  "sodium lauryl carboxylate": [
+    "acne"
+  ],
+  "alkyl carboxylate": [
+    "acne"
+  ],
+  "hydroxymethyl aminomethane": [
+    "acne"
+  ],
+  "l-arginine": [
+    "acne"
+  ],
+  "zinc": [
+    "acne"
+  ],
+  "kaolin": [
+    "acne",
+    "moisture"
+  ],
+  "salicylic acid": [
+    "acne"
+  ],
+  "alpha-hydroxy acid aha": [
+    "acne"
+  ],
+  "glycerin": [
+    "acne",
+    "age",
+    "eyebag",
+    "moisture",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "green tea extract": [
+    "acne"
+  ],
+  "zinc-containing compounds": [
+    "acne"
+  ],
+  "zinc coceth sulfate": [
+    "acne"
+  ],
+  "zinc gluconate": [
+    "acne"
+  ],
+  "dipotassium glycyrrhizate": [
+    "acne"
+  ],
+  "silica microbeads": [
+    "acne"
+  ],
+  "corn starch": [
+    "acne"
+  ],
+  "benzoyl peroxide": [
+    "acne"
+  ],
+  "beta-hydroxy acid bha": [
+    "acne"
+  ],
+  "triclosan": [
+    "acne"
+  ],
+  "triclocarban": [
+    "acne"
+  ],
+  "retinol": [
+    "acne"
+  ],
+  "nicotinamide": [
+    "acne"
+  ],
+  "sulfur": [
+    "acne"
+  ],
+  "azelaic acid aa": [
+    "acne"
+  ],
+  "butylene glycol": [
+    "age",
+    "eyebag",
+    "moisture",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "tocopherol": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "caprylic capric triglyceride": [
+    "acne",
+    "age",
+    "eyebag",
+    "moisture",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "limonene": [
+    "oiliness"
+  ],
+  "linalool": [
+    "oiliness"
+  ],
+  "sodium chloride": [
+    "oiliness"
+  ],
+  "cetyl alcohol": [
+    "oiliness"
+  ],
+  "benzyl alcohol": [
+    "oiliness"
+  ],
+  "camellia sinensis leaf extract": [
+    "acne",
+    "redness",
+    "wrinkle"
+  ],
+  "silica": [
+    "oiliness"
+  ],
+  "acrylates c10-30 alkyl acrylate crosspolymer": [
+    "oiliness"
+  ],
+  "arginine": [
+    "wrinkle"
+  ],
+  "alcohol": [
+    "oiliness",
+    "redness"
+  ],
+  "geraniol": [
+    "oiliness"
+  ],
+  "citronellol": [
+    "oiliness"
+  ],
+  "caffeine": [
+    "eyebag"
+  ],
+  "glyceryl caprylate": [
+    "oiliness"
+  ],
+  "decyl glucoside": [
+    "acne",
+    "oiliness"
+  ],
+  "sorbitan olivate": [
+    "oiliness"
+  ],
+  "alcohol denat": [
+    "acne",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "glycolic acid": [
+    "acne",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "aloe barbadensis leaf extract": [
+    "oiliness"
+  ],
+  "centella asiatica extract": [
+    "wrinkle"
+  ],
+  "stearyl alcohol": [
+    "moisture",
+    "oiliness"
+  ],
+  "peg-100 stearate": [
+    "oiliness"
+  ],
+  "adenosine": [
+    "wrinkle"
+  ],
+  "ascorbic acid": [
+    "moisture",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "cetearyl olivate": [
+    "oiliness"
+  ],
+  "peg-40 hydrogenated castor oil": [
+    "oiliness"
+  ],
+  "titanium dioxide": [
+    "oiliness"
+  ],
+  "gluconolactone": [
+    "oiliness",
+    "redness"
+  ],
+  "citral": [
+    "oiliness"
+  ],
+  "hydrolyzed hyaluronic acid": [
+    "acne",
+    "redness",
+    "wrinkle"
+  ],
+  "polysorbate 60": [
+    "oiliness"
+  ],
+  "hydroxyethyl acrylate sodium acryloyldimethyl taurate copolymer": [
+    "oiliness"
+  ],
+  "coco-glucoside": [
+    "acne",
+    "oiliness"
+  ],
+  "palmitoyl tetrapeptide-7": [
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "peg-60 hydrogenated castor oil": [
+    "oiliness"
+  ],
+  "sorbitan isostearate": [
+    "oiliness"
+  ],
+  "sodium lauroyl lactylate": [
+    "oiliness"
+  ],
+  "polysorbate 80": [
+    "oiliness"
+  ],
+  "ammonium acryloyldimethyltaurate vp copolymer": [
+    "oiliness"
+  ],
+  "palmitoyl tripeptide-1": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "ethylhexyl palmitate": [
+    "oiliness",
+    "redness"
+  ],
+  "behenyl alcohol": [
+    "oiliness"
+  ],
+  "tetrahexyldecyl ascorbate": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "ascorbyl palmitate": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "polyglyceryl-10 laurate": [
+    "oiliness"
+  ],
+  "isohexadecane": [
+    "oiliness",
+    "redness"
+  ],
+  "methylpropanediol": [
+    "moisture"
+  ],
+  "cetyl ethylhexanoate": [
+    "oiliness",
+    "redness"
+  ],
+  "beta-glucan": [
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "lactobacillus ferment": [
+    "acne",
+    "redness"
+  ],
+  "sodium ascorbyl phosphate": [
+    "acne",
+    "wrinkle"
+  ],
+  "dextrin": [
+    "moisture"
+  ],
+  "phenethyl alcohol": [
+    "oiliness"
+  ],
+  "ascorbyl glucoside": [
+    "wrinkle"
+  ],
+  "argania spinosa kernel oil": [
+    "acne",
+    "oiliness",
+    "wrinkle"
+  ],
+  "bentonite": [
+    "moisture",
+    "oiliness",
+    "redness"
+  ],
+  "jojoba esters": [
+    "oiliness"
+  ],
+  "rosa damascena flower water": [
+    "oiliness"
+  ],
+  "dicaprylyl carbonate": [
+    "oiliness"
+  ],
+  "octyldodecanol": [
+    "oiliness"
+  ],
+  "cetyl peg ppg-10 1 dimethicone": [
+    "oiliness"
+  ],
+  "acetyl hexapeptide-8": [
+    "wrinkle"
+  ],
+  "glyceryl stearate citrate": [
+    "oiliness"
+  ],
+  "sodium stearoyl glutamate": [
+    "oiliness"
+  ],
+  "scutellaria baicalensis root extract": [
+    "acne"
+  ],
+  "ceteareth-20": [
+    "oiliness"
+  ],
+  "glyceryl oleate": [
+    "oiliness"
+  ],
+  "laureth-7": [
+    "oiliness"
+  ],
+  "serine": [
+    "moisture"
+  ],
+  "pullulan": [
+    "moisture"
+  ],
+  "glycine": [
+    "wrinkle"
+  ],
+  "sodium gluconate": [
+    "moisture",
+    "oiliness"
+  ],
+  "biosaccharide gum-1": [
+    "moisture"
+  ],
+  "pelargonium graveolens flower oil": [
+    "oiliness"
+  ],
+  "polyglyceryl-4 caprate": [
+    "oiliness"
+  ],
+  "glycereth-26": [
+    "moisture"
+  ],
+  "hydrolyzed collagen": [
+    "moisture",
+    "wrinkle"
+  ],
+  "myristic acid": [
+    "oiliness"
+  ],
+  "cocamidopropyl hydroxysultaine": [
+    "acne",
+    "oiliness"
+  ],
+  "algae extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "phenyl trimethicone": [
+    "oiliness"
+  ],
+  "cyclohexasiloxane": [
+    "oiliness"
+  ],
+  "magnesium sulfate": [
+    "oiliness"
+  ],
+  "proline": [
+    "wrinkle"
+  ],
+  "palmitoyl tripeptide-5": [
+    "wrinkle"
+  ],
+  "alanine": [
+    "wrinkle"
+  ],
+  "sodium acetylated hyaluronate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "steareth-20": [
+    "oiliness"
+  ],
+  "polyglyceryl-10 stearate": [
+    "oiliness"
+  ],
+  "glyceryl acrylate acrylic acid copolymer": [
+    "moisture"
+  ],
+  "isododecane": [
+    "oiliness"
+  ],
+  "cetyl palmitate": [
+    "oiliness"
+  ],
+  "sorbitan stearate": [
+    "oiliness"
+  ],
+  "potassium cetyl phosphate": [
+    "oiliness"
+  ],
+  "lauric acid": [
+    "acne",
+    "oiliness"
+  ],
+  "rosa damascena flower oil": [
+    "oiliness"
+  ],
+  "macadamia ternifolia seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "dimethicone vinyl dimethicone crosspolymer": [
+    "oiliness"
+  ],
+  "polymethylsilsesquioxane": [
+    "wrinkle"
+  ],
+  "cellulose": [
+    "oiliness"
+  ],
+  "hydrogenated polyisobutene": [
+    "oiliness"
+  ],
+  "rosa canina fruit oil": [
+    "oiliness"
+  ],
+  "linoleic acid": [
+    "acne",
+    "oiliness"
+  ],
+  "chondrus crispus extract": [
+    "oiliness"
+  ],
+  "eugenol": [
+    "oiliness"
+  ],
+  "dicaprylyl ether": [
+    "oiliness",
+    "redness"
+  ],
+  "sorbitan oleate": [
+    "oiliness"
+  ],
+  "threonine": [
+    "wrinkle"
+  ],
+  "polysilicone-11": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "magnesium ascorbyl phosphate": [
+    "wrinkle"
+  ],
+  "peg-6 caprylic capric glycerides": [
+    "oiliness"
+  ],
+  "peg-7 glyceryl cocoate": [
+    "oiliness"
+  ],
+  "peg-8": [
+    "moisture"
+  ],
+  "moringa oleifera seed oil": [
+    "oiliness"
+  ],
+  "xylitylglucoside": [
+    "moisture"
+  ],
+  "ethoxydiglycol": [
+    "acne"
+  ],
+  "hydrogenated castor oil": [
+    "moisture",
+    "oiliness"
+  ],
+  "aspartic acid": [
+    "wrinkle"
+  ],
+  "eucalyptus globulus leaf oil": [
+    "oiliness"
+  ],
+  "hydroxypropyl cyclodextrin": [
+    "oiliness"
+  ],
+  "ubiquinone": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "polyglyceryl-3 methylglucose distearate": [
+    "oiliness"
+  ],
+  "sorbitan sesquioleate": [
+    "oiliness"
+  ],
+  "caprylyl methicone": [
+    "oiliness"
+  ],
+  "palmitoyl pentapeptide-4": [
+    "age",
+    "oiliness",
+    "wrinkle"
+  ],
+  "dimethyl isosorbide": [
+    "acne"
+  ],
+  "polyglycerin-3": [
+    "moisture"
+  ],
+  "valine": [
+    "wrinkle"
+  ],
+  "arachidyl alcohol": [
+    "oiliness"
+  ],
+  "ppg-26-buteth-26": [
+    "oiliness"
+  ],
+  "sucrose stearate": [
+    "oiliness"
+  ],
+  "coconut alkanes": [
+    "oiliness"
+  ],
+  "glutamic acid": [
+    "moisture"
+  ],
+  "zinc pca": [
+    "acne",
+    "moisture",
+    "oiliness",
+    "wrinkle"
+  ],
+  "peg-12 dimethicone": [
+    "oiliness"
+  ],
+  "arachidyl glucoside": [
+    "oiliness"
+  ],
+  "hydroxycitronellal": [
+    "oiliness"
+  ],
+  "coco-caprylate": [
+    "oiliness"
+  ],
+  "soluble collagen": [
+    "moisture",
+    "wrinkle"
+  ],
+  "helianthus annuus seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "palmitoyl tripeptide-38": [
+    "wrinkle"
+  ],
+  "anthemis nobilis flower oil": [
+    "oiliness"
+  ],
+  "asiaticoside": [
+    "wrinkle"
+  ],
+  "glyceryl laurate": [
+    "oiliness"
+  ],
+  "bis-peg-18 methyl ether dimethyl silane": [
+    "oiliness"
+  ],
+  "peg-10 dimethicone": [
+    "oiliness"
+  ],
+  "hydroxyethyl urea": [
+    "moisture"
+  ],
+  "triethylhexanoin": [
+    "moisture"
+  ],
+  "cananga odorata flower oil": [
+    "oiliness",
+    "redness"
+  ],
+  "silica dimethyl silylate": [
+    "oiliness"
+  ],
+  "diheptyl succinate": [
+    "oiliness"
+  ],
+  "sorbitan laurate": [
+    "oiliness"
+  ],
+  "acetyl glucosamine": [
+    "wrinkle"
+  ],
+  "isoamyl laurate": [
+    "oiliness"
+  ],
+  "trihydroxystearin": [
+    "oiliness"
+  ],
+  "diglycerin": [
+    "moisture"
+  ],
+  "steareth-2": [
+    "oiliness"
+  ],
+  "c13-15 alkane": [
+    "oiliness"
+  ],
+  "steareth-21": [
+    "oiliness"
+  ],
+  "borago officinalis seed oil": [
+    "oiliness"
+  ],
+  "glucomannan": [
+    "age",
+    "wrinkle"
+  ],
+  "oleic acid": [
+    "acne",
+    "oiliness"
+  ],
+  "hexyl laurate": [
+    "oiliness"
+  ],
+  "collagen": [
+    "moisture",
+    "wrinkle"
+  ],
+  "superoxide dismutase": [
+    "redness"
+  ],
+  "peg ppg-17 6 copolymer": [
+    "moisture"
+  ],
+  "methyl methacrylate crosspolymer": [
+    "age",
+    "oiliness"
+  ],
+  "montmorillonite": [
+    "oiliness"
+  ],
+  "peg-40 stearate": [
+    "oiliness"
+  ],
+  "copper tripeptide-1": [
+    "age",
+    "moisture",
+    "wrinkle"
+  ],
+  "isopentyldiol": [
+    "moisture"
+  ],
+  "mandelic acid": [
+    "acne"
+  ],
+  "tremella fuciformis sporocarp extract": [
+    "moisture"
+  ],
+  "polyglutamic acid": [
+    "moisture"
+  ],
+  "houttuynia cordata extract": [
+    "moisture"
+  ],
+  "sclerocarya birrea seed oil": [
+    "moisture",
+    "oiliness",
+    "redness"
+  ],
+  "pentaerythrityl tetraethylhexanoate": [
+    "oiliness"
+  ],
+  "aluminum starch octenylsuccinate": [
+    "oiliness"
+  ],
+  "asiatic acid": [
+    "wrinkle"
+  ],
+  "cetearyl isononanoate": [
+    "oiliness"
+  ],
+  "galactoarabinan": [
+    "age"
+  ],
+  "c14-22 alcohols": [
+    "oiliness"
+  ],
+  "tapioca starch": [
+    "oiliness"
+  ],
+  "ammonium polyacryloyldimethyl taurate": [
+    "oiliness"
+  ],
+  "peg-20 glyceryl triisostearate": [
+    "oiliness"
+  ],
+  "acetyl octapeptide-3": [
+    "wrinkle"
+  ],
+  "simmondsia chinensis seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "myristyl myristate": [
+    "acne"
+  ],
+  "opuntia ficus-indica stem extract": [
+    "moisture"
+  ],
+  "c12-14 pareth-12": [
+    "oiliness"
+  ],
+  "cetearyl ethylhexanoate": [
+    "oiliness"
+  ],
+  "ethylhexyl stearate": [
+    "oiliness"
+  ],
+  "astaxanthin": [
+    "age",
+    "moisture",
+    "oiliness",
+    "wrinkle"
+  ],
+  "sucrose laurate": [
+    "oiliness"
+  ],
+  "dipeptide-2": [
+    "eyebag"
+  ],
+  "macadamia integrifolia seed oil": [
+    "oiliness"
+  ],
+  "camellia oleifera seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "punica granatum seed oil": [
+    "oiliness"
+  ],
+  "sorbitan palmitate": [
+    "oiliness"
+  ],
+  "ectoin": [
+    "moisture",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "poloxamer 184": [
+    "oiliness"
+  ],
+  "acetyl dipeptide-1 cetyl ester": [
+    "redness",
+    "wrinkle"
+  ],
+  "acetyl tetrapeptide-5": [
+    "eyebag"
+  ],
+  "hdi trimethylol hexyllactone crosspolymer": [
+    "wrinkle"
+  ],
+  "isodecyl neopentanoate": [
+    "oiliness"
+  ],
+  "laminaria saccharina extract": [
+    "acne"
+  ],
+  "propylene glycol dicaprylate dicaprate": [
+    "oiliness"
+  ],
+  "zanthoxylum piperitum fruit extract": [
+    "acne"
+  ],
+  "candelilla jojoba rice bran polyglyceryl-3 esters": [
+    "oiliness"
+  ],
+  "hesperidin methyl chalcone": [
+    "eyebag",
+    "redness"
+  ],
+  "camellia oleifera leaf extract": [
+    "oiliness"
+  ],
+  "dipeptide diaminobutyroyl benzylamide diacetate": [
+    "wrinkle"
+  ],
+  "saccharomyces cerevisiae extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "lauryl peg-9 polydimethylsiloxyethyl dimethicone": [
+    "oiliness"
+  ],
+  "pelargonium graveolens oil": [
+    "oiliness"
+  ],
+  "dimethicone peg-10 15 crosspolymer": [
+    "oiliness"
+  ],
+  "nylon-12": [
+    "age"
+  ],
+  "pseudoalteromonas ferment extract": [
+    "moisture",
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "butyrospermum parkii butter": [
+    "redness"
+  ],
+  "laureth-23": [
+    "oiliness"
+  ],
+  "alteromonas ferment extract": [
+    "acne",
+    "redness"
+  ],
+  "citrus unshiu peel extract": [
+    "oiliness"
+  ],
+  "polyglyceryl-3 polyricinoleate": [
+    "oiliness"
+  ],
+  "snail secretion filtrate": [
+    "acne",
+    "moisture",
+    "wrinkle"
+  ],
+  "crambe abyssinica seed oil": [
+    "oiliness"
+  ],
+  "isostearic acid": [
+    "oiliness"
+  ],
+  "salvia hispanica seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "cetyl hydroxyethylcellulose": [
+    "oiliness"
+  ],
+  "silica silylate": [
+    "oiliness"
+  ],
+  "triheptanoin": [
+    "oiliness"
+  ],
+  "ethylhexyl methoxycinnamate": [
+    "oiliness"
+  ],
+  "lactobionic acid": [
+    "oiliness"
+  ],
+  "sorbeth-30 tetraoleate": [
+    "oiliness"
+  ],
+  "tripeptide-1": [
+    "acne",
+    "oiliness",
+    "wrinkle"
+  ],
+  "rosmarinus officinalis leaf extract": [
+    "oiliness"
+  ],
+  "ethylene propylene styrene copolymer": [
+    "oiliness"
+  ],
+  "isoceteth-20": [
+    "oiliness"
+  ],
+  "isostearyl isostearate": [
+    "oiliness"
+  ],
+  "sucrose palmitate": [
+    "oiliness"
+  ],
+  "aminopropyl ascorbyl phosphate": [
+    "age",
+    "wrinkle"
+  ],
+  "glycine soja oil": [
+    "oiliness"
+  ],
+  "hydroxyphenyl propamidobenzoic acid": [
+    "redness"
+  ],
+  "hydroxypinacolone retinoate": [
+    "acne",
+    "wrinkle"
+  ],
+  "peg-9 polydimethylsiloxyethyl dimethicone": [
+    "oiliness"
+  ],
+  "prunus amygdalus dulcis oil": [
+    "oiliness"
+  ],
+  "rosa canina seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "lavandula angustifolia oil": [
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "adansonia digitata seed oil": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "methyl glucose sesquistearate": [
+    "oiliness"
+  ],
+  "persea gratissima oil": [
+    "oiliness"
+  ],
+  "ppg-5-ceteth-20": [
+    "oiliness"
+  ],
+  "camelina sativa seed oil": [
+    "oiliness"
+  ],
+  "glycyrrhiza glabra root extract": [
+    "redness"
+  ],
+  "hamamelis virginiana extract": [
+    "oiliness"
+  ],
+  "chamomilla recutita flower extract": [
+    "redness"
+  ],
+  "passiflora edulis seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "peg-20 methyl glucose sesquistearate": [
+    "oiliness"
+  ],
+  "plukenetia volubilis seed oil": [
+    "oiliness"
+  ],
+  "ammonium lauryl sulfate": [
+    "oiliness"
+  ],
+  "hexyldecanol": [
+    "oiliness"
+  ],
+  "hippophae rhamnoides fruit oil": [
+    "oiliness"
+  ],
+  "triolein": [
+    "oiliness"
+  ],
+  "aleurites moluccana seed oil": [
+    "acne",
+    "oiliness",
+    "redness"
+  ],
+  "cucumis sativus fruit extract": [
+    "eyebag",
+    "wrinkle"
+  ],
+  "hydrogenated vegetable glycerides": [
+    "oiliness"
+  ],
+  "polyglyceryl-6 behenate": [
+    "oiliness"
+  ],
+  "betula alba bark extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "galactomyces ferment filtrate": [
+    "wrinkle"
+  ],
+  "haematococcus pluvialis extract": [
+    "oiliness"
+  ],
+  "phytosteryl macadamiate": [
+    "moisture",
+    "oiliness"
+  ],
+  "ricinus communis seed oil": [
+    "moisture",
+    "oiliness"
+  ],
+  "sorbitan caprylate": [
+    "oiliness"
+  ],
+  "ethylhexyl salicylate": [
+    "oiliness"
+  ],
+  "oleth-10": [
+    "oiliness"
+  ],
+  "peg-30 dipolyhydroxystearate": [
+    "oiliness"
+  ],
+  "vitis vinifera seed oil": [
+    "oiliness"
+  ],
+  "neopentyl glycol dicaprylate dicaprate": [
+    "oiliness"
+  ],
+  "saccharomyces ferment filtrate": [
+    "wrinkle"
+  ],
+  "sh-oligopeptide-1": [
+    "age",
+    "wrinkle"
+  ],
+  "inulin lauryl carbamate": [
+    "oiliness"
+  ],
+  "opuntia ficus-indica seed oil": [
+    "oiliness"
+  ],
+  "potassium azeloyl diglycinate": [
+    "acne",
+    "moisture",
+    "oiliness",
+    "redness"
+  ],
+  "rosa rubiginosa seed oil": [
+    "acne",
+    "oiliness",
+    "wrinkle"
+  ],
+  "tremella fuciformis polysaccharide": [
+    "moisture"
+  ],
+  "polygonum aviculare extract": [
+    "wrinkle"
+  ],
+  "tetradecyl aminobutyroylvalylaminobutyric urea trifluoroacetate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "1 2-hexanediol": [
+    "moisture"
+  ],
+  "hydrogenated coco-glycerides": [
+    "oiliness"
+  ],
+  "peg-8 dimethicone": [
+    "oiliness"
+  ],
+  "retinyl propionate": [
+    "acne",
+    "wrinkle"
+  ],
+  "imperata cylindrica root extract": [
+    "moisture"
+  ],
+  "isosorbide dicaprylate": [
+    "moisture",
+    "oiliness"
+  ],
+  "methyl gluceth-10": [
+    "moisture"
+  ],
+  "polyglyceryl-2 caprate": [
+    "oiliness"
+  ],
+  "bis-peg ppg-14 14 dimethicone": [
+    "oiliness"
+  ],
+  "boswellia serrata extract": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "myristoyl pentapeptide-17": [
+    "oiliness"
+  ],
+  "opuntia ficus-indica extract": [
+    "redness"
+  ],
+  "astragalus membranaceus root extract": [
+    "acne",
+    "moisture"
+  ],
+  "copper lysinate prolinate": [
+    "wrinkle"
+  ],
+  "methylglucoside phosphate": [
+    "wrinkle"
+  ],
+  "peg-12 dimethicone ppg-20 crosspolymer": [
+    "oiliness"
+  ],
+  "polyglyceryl-10 dioleate": [
+    "oiliness"
+  ],
+  "bis-ethylhexyloxyphenol methoxyphenyl triazine": [
+    "oiliness"
+  ],
+  "calophyllum inophyllum seed oil": [
+    "oiliness",
+    "redness"
+  ],
+  "caprooyl tetrapeptide-3": [
+    "age",
+    "wrinkle"
+  ],
+  "castor oil ipdi copolymer": [
+    "oiliness"
+  ],
+  "centaurea cyanus flower water": [
+    "redness"
+  ],
+  "citrus aurantium dulcis fruit extract": [
+    "oiliness"
+  ],
+  "collagen amino acids": [
+    "moisture",
+    "wrinkle"
+  ],
+  "curcuma longa root extract": [
+    "acne",
+    "oiliness"
+  ],
+  "jojoba oil macadamia seed oil esters": [
+    "moisture",
+    "oiliness"
+  ],
+  "leontopodium alpinum callus culture extract": [
+    "wrinkle"
+  ],
+  "oleic linoleic linolenic polyglycerides": [
+    "oiliness"
+  ],
+  "phellodendron amurense bark extract": [
+    "acne"
+  ],
+  "sorbitan trioleate": [
+    "oiliness"
+  ],
+  "vitis vinifera fruit extract": [
+    "oiliness"
+  ],
+  "biotinoyl tripeptide-1": [
+    "wrinkle"
+  ],
+  "cetyl phosphate": [
+    "oiliness"
+  ],
+  "isoamyl p-methoxycinnamate": [
+    "oiliness"
+  ],
+  "melissa officinalis leaf oil": [
+    "oiliness"
+  ],
+  "tripeptide-29": [
+    "wrinkle"
+  ],
+  "cocos nucifera oil": [
+    "acne",
+    "oiliness"
+  ],
+  "disodium lauriminodipropionate tocopheryl phosphates": [
+    "acne",
+    "redness"
+  ],
+  "hexapeptide-9": [
+    "wrinkle"
+  ],
+  "isoamyl cocoate": [
+    "oiliness"
+  ],
+  "pentapeptide-18": [
+    "wrinkle"
+  ],
+  "sodium acrylates crosspolymer-2": [
+    "wrinkle"
+  ],
+  "chlorophyll": [
+    "oiliness"
+  ],
+  "mannose": [
+    "moisture"
+  ],
+  "pinus pinaster bark extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "ruscus aculeatus root extract": [
+    "redness"
+  ],
+  "soy isoflavones": [
+    "redness",
+    "wrinkle"
+  ],
+  "tridecyl stearate": [
+    "oiliness"
+  ],
+  "carthamus tinctorius seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "glyceryl behenate eicosadioate": [
+    "oiliness"
+  ],
+  "olive oil glycereth-8 esters": [
+    "oiliness"
+  ],
+  "peg-6": [
+    "moisture"
+  ],
+  "sh-polypeptide-1": [
+    "wrinkle"
+  ],
+  "citrus aurantium amara flower oil": [
+    "oiliness"
+  ],
+  "diglucosyl gallic acid": [
+    "redness"
+  ],
+  "gelatin": [
+    "wrinkle"
+  ],
+  "lactobacillus kelp ferment filtrate": [
+    "oiliness"
+  ],
+  "linum usitatissimum seed oil": [
+    "oiliness"
+  ],
+  "olive oil peg-7 esters": [
+    "oiliness"
+  ],
+  "oryzanol": [
+    "oiliness"
+  ],
+  "plantago lanceolata leaf extract": [
+    "acne"
+  ],
+  "pogostemon cablin leaf oil": [
+    "oiliness"
+  ],
+  "acrylates dimethicone copolymer": [
+    "oiliness"
+  ],
+  "citrus aurantium dulcis peel oil": [
+    "oiliness"
+  ],
+  "ethyl linoleate": [
+    "oiliness"
+  ],
+  "perfluorodecalin": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "propylheptyl caprylate": [
+    "oiliness"
+  ],
+  "theobroma cacao seed butter": [
+    "wrinkle"
+  ],
+  "zingiber officinale root extract": [
+    "oiliness",
+    "redness"
+  ],
+  "caprylyl caprylate caprate": [
+    "oiliness"
+  ],
+  "citrus limon fruit extract": [
+    "oiliness"
+  ],
+  "globularia cordifolia callus culture extract": [
+    "redness"
+  ],
+  "menthone glycerin acetal": [
+    "oiliness"
+  ],
+  "paraffinum liquidum": [
+    "oiliness"
+  ],
+  "sorbitan sesquiisostearate": [
+    "oiliness"
+  ],
+  "tamarindus indica seed gum": [
+    "wrinkle"
+  ],
+  "vinegar": [
+    "oiliness"
+  ],
+  "amaranthus caudatus seed extract": [
+    "oiliness"
+  ],
+  "cocos nucifera fruit extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "diisopropyl adipate": [
+    "oiliness"
+  ],
+  "isocetyl stearate": [
+    "oiliness"
+  ],
+  "sesamum indicum seed oil": [
+    "oiliness"
+  ],
+  "tetrapeptide-21": [
+    "wrinkle"
+  ],
+  "citrus limon peel oil": [
+    "oiliness"
+  ],
+  "glyceryl dibehenate": [
+    "oiliness"
+  ],
+  "poloxamer 188": [
+    "oiliness"
+  ],
+  "prunus armeniaca kernel oil": [
+    "oiliness"
+  ],
+  "saccharum officinarum extract": [
+    "moisture"
+  ],
+  "undecylenoyl phenylalanine": [
+    "age"
+  ],
+  "aronia melanocarpa fruit extract": [
+    "moisture"
+  ],
+  "coceth-7": [
+    "oiliness"
+  ],
+  "myristyl nicotinate": [
+    "oiliness"
+  ],
+  "nigella sativa seed oil": [
+    "oiliness"
+  ],
+  "pelargonium graveolens leaf oil": [
+    "oiliness"
+  ],
+  "poloxamer 407": [
+    "oiliness"
+  ],
+  "rosmarinus officinalis leaf oil": [
+    "oiliness"
+  ],
+  "stearyl heptanoate": [
+    "oiliness"
+  ],
+  "acetyl hexapeptide-1": [
+    "redness",
+    "wrinkle"
+  ],
+  "c10-30 cholesterol lanosterol esters": [
+    "oiliness"
+  ],
+  "diisopropyl sebacate": [
+    "oiliness"
+  ],
+  "isopropyl lauroyl sarcosinate": [
+    "oiliness"
+  ],
+  "leptospermum scoparium branch leaf oil": [
+    "acne",
+    "oiliness"
+  ],
+  "saccharomyces camellia sinensis leaf cladosiphon okamuranus rice ferment filtrate": [
+    "moisture"
+  ],
+  "tuber melanosporum extract": [
+    "moisture"
+  ],
+  "benzophenone-3": [
+    "oiliness"
+  ],
+  "disodium acetyl glucosamine phosphate": [
+    "moisture"
+  ],
+  "lactobacillus ferment lysate filtrate": [
+    "oiliness",
+    "redness",
+    "wrinkle"
+  ],
+  "limnanthes alba seed oil": [
+    "oiliness"
+  ],
+  "oleyl erucate": [
+    "oiliness"
+  ],
+  "peg ppg polybutylene glycol-8 5 3 glycerin": [
+    "moisture",
+    "oiliness"
+  ],
+  "silybum marianum seed oil": [
+    "acne",
+    "oiliness"
+  ],
+  "tetrapeptide-14": [
+    "redness"
+  ],
+  "ethylbisiminomethylguaiacol manganese chloride": [
+    "redness"
+  ],
+  "hydrolyzed marine collagen": [
+    "wrinkle"
+  ],
+  "melaleuca alternifolia leaf oil": [
+    "acne",
+    "oiliness"
+  ],
+  "mentha piperita oil": [
+    "oiliness"
+  ],
+  "myrtus communis extract": [
+    "acne",
+    "oiliness"
+  ],
+  "raspberry seed oil tocopheryl succinate aminopropanediol esters": [
+    "oiliness"
+  ],
+  "teprenone": [
+    "age",
+    "moisture",
+    "redness",
+    "wrinkle"
+  ],
+  "trifluoroacetyl tripeptide-2": [
+    "wrinkle"
+  ],
+  "acer saccharum extract": [
+    "wrinkle"
+  ],
+  "dibutyl ethylhexanoyl glutamide": [
+    "oiliness"
+  ],
+  "dibutyl lauroyl glutamide": [
+    "oiliness"
+  ],
+  "helianthus annuus seed oil unsaponifiables": [
+    "oiliness"
+  ],
+  "kigelia africana fruit extract": [
+    "wrinkle"
+  ],
+  "peg-12 glyceryl dimyristate": [
+    "oiliness"
+  ],
+  "polyglyceryl-2 sesquicaprylate": [
+    "oiliness"
+  ],
+  "acetylarginyltryptophyl diphenylglycine": [
+    "wrinkle"
+  ],
+  "adipic acid neopentyl glycol crosspolymer": [
+    "age",
+    "oiliness",
+    "wrinkle"
+  ],
+  "citrus aurantium bergamia fruit oil": [
+    "oiliness"
+  ],
+  "dipentaerythrityl hexacaprylate hexacaprate": [
+    "oiliness"
+  ],
+  "hydroxypalmitoyl sphinganine": [
+    "moisture"
+  ],
+  "sh-polypeptide-11": [
+    "wrinkle"
+  ],
+  "sh-polypeptide-9": [
+    "wrinkle"
+  ],
+  "silybum marianum extract": [
+    "redness"
+  ],
+  "vaccinium macrocarpon seed oil": [
+    "oiliness"
+  ],
+  "xanthophyll": [
+    "moisture",
+    "wrinkle"
+  ],
+  "buddleja davidii meristem cell culture": [
+    "moisture"
+  ],
+  "citrus paradisi peel oil": [
+    "oiliness"
+  ],
+  "daucus carota sativa root extract": [
+    "oiliness"
+  ],
+  "ethyl ascorbic acid": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "palmitoyl hexapeptide-19": [
+    "wrinkle"
+  ],
+  "pseudoalteromonas exopolysaccharides": [
+    "moisture",
+    "wrinkle"
+  ],
+  "safflower oil palm oil aminopropanediol esters": [
+    "oiliness"
+  ],
+  "tetrapeptide-30": [
+    "acne",
+    "age",
+    "redness"
+  ],
+  "barosma betulina leaf extract": [
+    "oiliness"
+  ],
+  "borago officinalis leaf extract": [
+    "oiliness"
+  ],
+  "citrus grandis peel oil": [
+    "oiliness"
+  ],
+  "cucumis sativus seed oil": [
+    "oiliness"
+  ],
+  "diisostearoyl polyglyceryl-3 dimer dilinoleate": [
+    "oiliness"
+  ],
+  "disodium cetearyl sulfosuccinate": [
+    "oiliness"
+  ],
+  "ethyl linolenate": [
+    "oiliness"
+  ],
+  "myristoyl hexapeptide-16": [
+    "oiliness"
+  ],
+  "octocrylene": [
+    "oiliness"
+  ],
+  "oenothera biennis oil": [
+    "acne",
+    "moisture",
+    "oiliness",
+    "redness"
+  ],
+  "oryza sativa bran oil": [
+    "oiliness"
+  ],
+  "pongamia glabra seed oil": [
+    "oiliness"
+  ],
+  "ppg-10 methyl glucose ether": [
+    "moisture"
+  ],
+  "prunus domestica seed extract": [
+    "oiliness"
+  ],
+  "rosmarinyl glucoside": [
+    "redness",
+    "wrinkle"
+  ],
+  "whey protein": [
+    "wrinkle"
+  ],
+  "acacia decurrens jojoba sunflower seed wax polyglyceryl-3 esters": [
+    "oiliness"
+  ],
+  "beta vulgaris root extract": [
+    "moisture"
+  ],
+  "hexanoyl dipeptide-3 norleucine acetate": [
+    "wrinkle"
+  ],
+  "homosalate": [
+    "oiliness"
+  ],
+  "malus domestica fruit cell culture": [
+    "wrinkle"
+  ],
+  "ornithine": [
+    "wrinkle"
+  ],
+  "bis-ethylhexyl hydroxydimethoxy benzylmalonate": [
+    "acne",
+    "oiliness",
+    "redness"
+  ],
+  "citrus aurantium amara flower water": [
+    "oiliness"
+  ],
+  "citrus reticulata peel oil": [
+    "oiliness"
+  ],
+  "copper chlorophyll": [
+    "oiliness"
+  ],
+  "dimethylacrylamide acrylic acid polystyrene ethyl methacrylate copolymer": [
+    "oiliness"
+  ],
+  "dipropylene glycol dibenzoate": [
+    "moisture",
+    "oiliness"
+  ],
+  "helianthus annuus extract": [
+    "oiliness"
+  ],
+  "palmitoyl hexapeptide-14": [
+    "age",
+    "wrinkle"
+  ],
+  "polyglyceryl-10 behenate eicosadioate": [
+    "oiliness"
+  ],
+  "acetamidoethoxyethanol": [
+    "moisture"
+  ],
+  "cetearyl nonanoate": [
+    "moisture"
+  ],
+  "dibutyl adipate": [
+    "oiliness"
+  ],
+  "diisopropyl dimer dilinoleate": [
+    "oiliness"
+  ],
+  "eucalyptus radiata leaf oil": [
+    "oiliness"
+  ],
+  "genistein": [
+    "redness",
+    "wrinkle"
+  ],
+  "heptapeptide-15 palmitate": [
+    "wrinkle"
+  ],
+  "hydrolyzed placental protein": [
+    "moisture",
+    "wrinkle"
+  ],
+  "lens esculenta fruit extract": [
+    "age",
+    "moisture"
+  ],
+  "oleth-3 phosphate": [
+    "oiliness"
+  ],
+  "peat": [
+    "oiliness",
+    "redness"
+  ],
+  "polyamide-8": [
+    "oiliness"
+  ],
+  "retinyl retinoate": [
+    "acne",
+    "oiliness",
+    "wrinkle"
+  ],
+  "acrylates ethylhexyl acrylate crosspolymer": [
+    "oiliness"
+  ],
+  "aesculus hippocastanum seed extract": [
+    "redness"
+  ],
+  "carthamus tinctorius oleosomes": [
+    "moisture",
+    "oiliness"
+  ],
+  "cocos nucifera fruit juice": [
+    "moisture",
+    "wrinkle"
+  ],
+  "copper palmitoyl heptapeptide-14": [
+    "wrinkle"
+  ],
+  "cypripedium pubescens extract": [
+    "redness"
+  ],
+  "eucalyptus citriodora oil": [
+    "oiliness"
+  ],
+  "glycereth-7 trimethyl ether": [
+    "oiliness"
+  ],
+  "human fibroblast conditioned media": [
+    "age",
+    "redness",
+    "wrinkle"
+  ],
+  "isopropyl cloprostenate": [
+    "redness"
+  ],
+  "methylene bis-benzotriazolyl tetramethylbutylphenol": [
+    "oiliness"
+  ],
+  "phenylbenzimidazole sulfonic acid": [
+    "oiliness"
+  ],
+  "pistacia lentiscus gum": [
+    "oiliness"
+  ],
+  "secale cereale seed extract": [
+    "wrinkle"
+  ],
+  "sh-octapeptide-4": [
+    "wrinkle"
+  ],
+  "solum fullonum": [
+    "oiliness"
+  ],
+  "thymus vulgaris flower leaf oil": [
+    "oiliness"
+  ],
+  "urtica dioica leaf extract": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "purified water": [
+    "acne",
+    "eyebag",
+    "oiliness",
+    "redness"
+  ],
+  "active ingredients homosalate 9 0": [
+    "redness"
+  ],
+  "aloe barbadensis leaf juice": [
+    "acne",
+    "age",
+    "eyebag",
+    "moisture",
+    "oiliness",
+    "redness"
+  ],
+  "hamamelis virginiana witch hazel water": [
+    "oiliness"
+  ],
+  "hexylene glycol": [
+    "redness"
+  ],
+  "decyl isostearate": [
+    "redness"
+  ],
+  "cyclopentasiloxane": [
+    "age",
+    "eyebag",
+    "redness",
+    "wrinkle"
+  ],
+  "helianthus annuus sunflower seed oil": [
+    "acne"
+  ],
+  "active ingredients octinoxate 7 5": [
+    "redness"
+  ],
+  "active ingredients titanium dioxide 9 9": [
+    "redness"
+  ],
+  "vitis vinifera grape seed oil": [
+    "wrinkle"
+  ],
+  "dipropylene glycol": [
+    "moisture"
+  ],
+  "simmondsia chinensis jojoba seed oil": [
+    "age",
+    "wrinkle"
+  ],
+  "bilinmeyen bilesenler": [
+    "moisture"
+  ],
+  "active ingredients titanium dioxide 4": [
+    "redness"
+  ],
+  "butyrospermum parkii shea butter": [
+    "wrinkle"
+  ],
+  "cocos nucifera coconut oil": [
+    "acne"
+  ],
+  "propanediol": [
+    "age",
+    "moisture",
+    "oiliness",
+    "wrinkle"
+  ],
+  "aloe barbadensis aloe vera leaf juice": [
+    "oiliness"
+  ],
+  "unknown ingredients": [
+    "acne",
+    "age"
+  ],
+  "sodium laureth sulfate": [
+    "acne"
+  ],
+  "sodium cocoamphoacetate": [
+    "acne"
+  ],
+  "cocamidopropyl betaine": [
+    "acne"
+  ],
+  "sodium cocoyl isethionate": [
+    "acne"
+  ],
+  "sodium c14-16 olefin sulfonate": [
+    "acne"
+  ],
+  "polyvinyl alcohol": [
+    "moisture"
+  ],
+  "phenoxyethanol": [
+    "moisture",
+    "oiliness"
+  ],
+  "ethylhexylglycerin": [
+    "moisture",
+    "redness"
+  ],
+  "sodium hyaluronate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "disodium edta": [
+    "moisture",
+    "oiliness"
+  ],
+  "sodium benzoate": [
+    "moisture",
+    "oiliness"
+  ],
+  "potassium sorbate": [
+    "acne",
+    "moisture"
+  ],
+  "tocopheryl acetate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "allantoin": [
+    "moisture",
+    "oiliness"
+  ],
+  "pentylene glycol": [
+    "moisture",
+    "oiliness"
+  ],
+  "sodium citrate": [
+    "moisture"
+  ],
+  "hydroxyacetophenone": [
+    "oiliness"
+  ],
+  "chlorphenesin": [
+    "oiliness"
+  ],
+  "parfum fragrance": [
+    "moisture",
+    "oiliness"
+  ],
+  "lecithin": [
+    "moisture",
+    "oiliness"
+  ],
+  "sodium phytate": [
+    "moisture",
+    "oiliness"
+  ],
+  "mica": [
+    "moisture",
+    "oiliness"
+  ],
+  "leuconostoc radish root ferment filtrate": [
+    "moisture",
+    "oiliness"
+  ],
+  "maltodextrin": [
+    "moisture",
+    "oiliness"
+  ],
+  "trehalose": [
+    "moisture"
+  ],
+  "dehydroacetic acid": [
+    "moisture",
+    "oiliness"
+  ],
+  "tromethamine": [
+    "moisture"
+  ],
+  "tetrasodium edta": [
+    "moisture",
+    "oiliness"
+  ],
+  "benzoic acid": [
+    "moisture",
+    "oiliness"
+  ],
+  "ceramide np": [
+    "moisture"
+  ],
+  "cellulose gum": [
+    "oiliness"
+  ],
+  "palmitic acid": [
+    "moisture",
+    "oiliness"
+  ],
+  "caprylhydroxamic acid": [
+    "moisture",
+    "oiliness"
+  ],
+  "sodium polyacrylate": [
+    "moisture",
+    "oiliness"
+  ],
+  "sclerotium gum": [
+    "oiliness"
+  ],
+  "bht": [
+    "moisture",
+    "redness"
+  ],
+  "cetearyl glucoside": [
+    "oiliness"
+  ],
+  "coco-caprylate caprate": [
+    "oiliness"
+  ],
+  "triethanolamine": [
+    "moisture",
+    "wrinkle"
+  ],
+  "calendula officinalis flower extract": [
+    "acne",
+    "redness"
+  ],
+  "sorbic acid": [
+    "oiliness"
+  ],
+  "trisodium ethylenediamine disuccinate": [
+    "moisture",
+    "oiliness"
+  ],
+  "glucose": [
+    "moisture"
+  ],
+  "lauryl glucoside": [
+    "acne",
+    "oiliness"
+  ],
+  "sodium cocoyl glutamate": [
+    "oiliness"
+  ],
+  "disteardimonium hectorite": [
+    "moisture",
+    "oiliness"
+  ],
+  "hexyl cinnamal": [
+    "oiliness"
+  ],
+  "saccharide isomerate": [
+    "moisture"
+  ],
+  "acrylates copolymer": [
+    "oiliness"
+  ],
+  "iron oxides": [
+    "oiliness"
+  ],
+  "panax ginseng root extract": [
+    "oiliness"
+  ],
+  "sucrose": [
+    "moisture"
+  ],
+  "dimethiconol": [
+    "oiliness"
+  ],
+  "xylitol": [
+    "moisture"
+  ],
+  "ci 77492": [
+    "oiliness"
+  ],
+  "triethoxycaprylylsilane": [
+    "moisture",
+    "oiliness"
+  ],
+  "aloe barbadensis leaf juice powder": [
+    "moisture",
+    "oiliness"
+  ],
+  "retinyl palmitate": [
+    "acne",
+    "wrinkle"
+  ],
+  "magnesium aluminum silicate": [
+    "moisture",
+    "oiliness"
+  ],
+  "portulaca oleracea extract": [
+    "oiliness",
+    "redness"
+  ],
+  "c12-15 alkyl benzoate": [
+    "oiliness"
+  ],
+  "sodium methyl cocoyl taurate": [
+    "moisture",
+    "oiliness"
+  ],
+  "tin oxide": [
+    "moisture",
+    "oiliness"
+  ],
+  "dimethicone crosspolymer": [
+    "oiliness"
+  ],
+  "aluminum hydroxide": [
+    "moisture",
+    "redness"
+  ],
+  "benzyl salicylate": [
+    "oiliness"
+  ],
+  "phospholipids": [
+    "moisture",
+    "oiliness"
+  ],
+  "sodium dehydroacetate": [
+    "moisture",
+    "oiliness"
+  ],
+  "c13-14 isoparaffin": [
+    "moisture",
+    "oiliness"
+  ],
+  "benzyl benzoate": [
+    "oiliness"
+  ],
+  "polyacrylamide": [
+    "moisture",
+    "oiliness"
+  ],
+  "sodium hyaluronate crosspolymer": [
+    "moisture",
+    "wrinkle"
+  ],
+  "synthetic fluorphlogopite": [
+    "moisture",
+    "oiliness"
+  ],
+  "carrageenan": [
+    "oiliness"
+  ],
+  "coumarin": [
+    "oiliness"
+  ],
+  "algin": [
+    "oiliness"
+  ],
+  "hydrolyzed sodium hyaluronate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "isononyl isononanoate": [
+    "oiliness"
+  ],
+  "polyacrylate crosspolymer-6": [
+    "oiliness"
+  ],
+  "ci 77499": [
+    "moisture",
+    "oiliness"
+  ],
+  "acacia senegal gum": [
+    "moisture",
+    "oiliness"
+  ],
+  "methylisothiazolinone": [
+    "oiliness",
+    "redness"
+  ],
+  "aminomethyl propanol": [
+    "moisture"
+  ],
+  "biotin": [
+    "moisture",
+    "wrinkle"
+  ],
+  "phytic acid": [
+    "moisture",
+    "oiliness"
+  ],
+  "iodopropynyl butylcarbamate": [
+    "acne",
+    "moisture"
+  ],
+  "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate": [
+    "moisture",
+    "oiliness"
+  ],
+  "ferulic acid": [
+    "moisture",
+    "wrinkle"
+  ],
+  "sodium lauroyl sarcosinate": [
+    "oiliness"
+  ],
+  "disodium cocoamphodiacetate": [
+    "acne",
+    "oiliness"
+  ],
+  "glycol distearate": [
+    "moisture",
+    "oiliness"
+  ],
+  "pvp": [
+    "moisture",
+    "wrinkle"
+  ],
+  "anhydroxylitol": [
+    "moisture"
+  ],
+  "polyisobutene": [
+    "oiliness"
+  ],
+  "microcrystalline cellulose": [
+    "moisture",
+    "oiliness"
+  ],
+  "hydroxypropyl methylcellulose": [
+    "moisture",
+    "oiliness"
+  ],
+  "alpha-isomethyl ionone": [
+    "oiliness"
+  ],
+  "mannitol": [
+    "moisture"
+  ],
+  "hydrogenated polydecene": [
+    "moisture",
+    "oiliness"
+  ],
+  "tribehenin": [
+    "oiliness"
+  ],
+  "sodium acrylate sodium acryloyldimethyl taurate copolymer": [
+    "oiliness"
+  ],
+  "butylphenyl methylpropional": [
+    "oiliness"
+  ],
+  "polyethylene": [
+    "moisture",
+    "oiliness"
+  ],
+  "methylchloroisothiazolinone": [
+    "oiliness"
+  ],
+  "talc": [
+    "moisture",
+    "oiliness"
+  ],
+  "methyl gluceth-20": [
+    "moisture",
+    "oiliness"
+  ],
+  "alumina": [
+    "oiliness"
+  ],
+  "farnesol": [
+    "oiliness"
+  ],
+  "dmdm hydantoin": [
+    "moisture",
+    "wrinkle"
+  ],
+  "arnica montana flower extract": [
+    "oiliness",
+    "redness"
+  ],
+  "lactococcus ferment lysate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "fructose": [
+    "moisture"
+  ],
+  "histidine": [
+    "moisture",
+    "wrinkle"
+  ],
+  "polyhydroxystearic acid": [
+    "oiliness"
+  ],
+  "disodium laureth sulfosuccinate": [
+    "acne",
+    "oiliness"
+  ],
+  "honey extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "isoleucine": [
+    "moisture",
+    "wrinkle"
+  ],
+  "cocamide mea": [
+    "oiliness"
+  ],
+  "magnesium chloride": [
+    "oiliness"
+  ],
+  "menthyl lactate": [
+    "moisture",
+    "oiliness"
+  ],
+  "honey": [
+    "acne",
+    "moisture"
+  ],
+  "phenylalanine": [
+    "wrinkle"
+  ],
+  "caramel": [
+    "moisture",
+    "oiliness"
+  ],
+  "copper gluconate": [
+    "redness",
+    "wrinkle"
+  ],
+  "malic acid": [
+    "moisture"
+  ],
+  "polyquaternium-10": [
+    "moisture",
+    "oiliness"
+  ],
+  "sodium acrylates copolymer": [
+    "moisture",
+    "oiliness"
+  ],
+  "anthemis nobilis flower extract": [
+    "redness"
+  ],
+  "capryloyl glycerin sebacic acid copolymer": [
+    "oiliness"
+  ],
+  "resveratrol": [
+    "acne",
+    "redness"
+  ],
+  "sodium lauroyl methyl isethionate": [
+    "oiliness"
+  ],
+  "butyloctyl salicylate": [
+    "moisture",
+    "oiliness"
+  ],
+  "inulin": [
+    "moisture",
+    "oiliness"
+  ],
+  "diazolidinyl urea": [
+    "moisture",
+    "wrinkle"
+  ],
+  "methyl trimethicone": [
+    "moisture",
+    "oiliness"
+  ],
+  "polyacrylate-13": [
+    "moisture",
+    "oiliness"
+  ],
+  "ci 77491": [
+    "moisture",
+    "oiliness"
+  ],
+  "ethylparaben": [
+    "moisture"
+  ],
+  "trisodium edta": [
+    "moisture",
+    "oiliness"
+  ],
+  "boron nitride": [
+    "oiliness"
+  ],
+  "pca": [
+    "moisture"
+  ],
+  "benzophenone-4": [
+    "oiliness"
+  ],
+  "amodimethicone": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "t-butyl alcohol": [
+    "oiliness"
+  ],
+  "pentaerythrityl tetraisostearate": [
+    "oiliness"
+  ],
+  "trimethylsiloxysilicate": [
+    "oiliness"
+  ],
+  "alpha-glucan oligosaccharide": [
+    "moisture",
+    "wrinkle"
+  ],
+  "madecassic acid": [
+    "wrinkle"
+  ],
+  "yeast extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "peg ppg-18 18 dimethicone": [
+    "oiliness"
+  ],
+  "bifida ferment lysate": [
+    "redness",
+    "wrinkle"
+  ],
+  "c12-20 alkyl glucoside": [
+    "oiliness"
+  ],
+  "c15-19 alkane": [
+    "moisture",
+    "oiliness"
+  ],
+  "ethyl hexanediol": [
+    "moisture",
+    "oiliness"
+  ],
+  "p-anisic acid": [
+    "moisture"
+  ],
+  "methicone": [
+    "oiliness"
+  ],
+  "polyquaternium-51": [
+    "moisture"
+  ],
+  "vinyl dimethicone methicone silsesquioxane crosspolymer": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "sodium stearate": [
+    "oiliness"
+  ],
+  "alpha-arbutin": [
+    "age",
+    "wrinkle"
+  ],
+  "phenylpropanol": [
+    "oiliness"
+  ],
+  "polyquaternium-37": [
+    "oiliness"
+  ],
+  "potassium cocoyl glycinate": [
+    "oiliness"
+  ],
+  "shea butter ethyl esters": [
+    "oiliness"
+  ],
+  "neopentyl glycol diheptanoate": [
+    "oiliness"
+  ],
+  "sodium salicylate": [
+    "moisture"
+  ],
+  "palmitoyl hexapeptide-12": [
+    "moisture",
+    "wrinkle"
+  ],
+  "tropolone": [
+    "oiliness"
+  ],
+  "bis-diglyceryl polyacyladipate-2": [
+    "oiliness"
+  ],
+  "polymethyl methacrylate": [
+    "oiliness"
+  ],
+  "salicornia herbacea extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "glyceryl behenate": [
+    "oiliness"
+  ],
+  "hydrolyzed corn starch": [
+    "moisture"
+  ],
+  "colloidal oatmeal": [
+    "moisture",
+    "redness"
+  ],
+  "ceramide ng": [
+    "moisture",
+    "wrinkle"
+  ],
+  "styrene acrylates copolymer": [
+    "oiliness"
+  ],
+  "arctostaphylos uva-ursi leaf extract": [
+    "oiliness",
+    "redness"
+  ],
+  "ceresin": [
+    "moisture",
+    "oiliness"
+  ],
+  "diethylhexyl syringylidenemalonate": [
+    "oiliness"
+  ],
+  "hexylresorcinol": [
+    "age",
+    "redness"
+  ],
+  "leuconostoc ferment filtrate": [
+    "oiliness"
+  ],
+  "lactobacillus punica granatum fruit ferment extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "vp va copolymer": [
+    "moisture",
+    "oiliness"
+  ],
+  "kappaphycus alvarezii extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "hydrogen dimethicone": [
+    "oiliness"
+  ],
+  "coptis japonica root extract": [
+    "oiliness"
+  ],
+  "raspberry ketone": [
+    "oiliness"
+  ],
+  "cetyl dimethicone": [
+    "oiliness"
+  ],
+  "edta": [
+    "moisture",
+    "oiliness"
+  ],
+  "trisiloxane": [
+    "oiliness"
+  ],
+  "butylene ethylene styrene copolymer": [
+    "oiliness"
+  ],
+  "calendula officinalis extract": [
+    "oiliness"
+  ],
+  "ethylhexyl hydroxystearate": [
+    "moisture",
+    "oiliness"
+  ],
+  "sd alcohol 40-b": [
+    "oiliness",
+    "redness"
+  ],
+  "acacia decurrens flower wax": [
+    "oiliness"
+  ],
+  "arctium lappa root extract": [
+    "oiliness",
+    "redness"
+  ],
+  "peg-75": [
+    "moisture",
+    "oiliness"
+  ],
+  "phytosteryl octyldodecyl lauroyl glutamate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "polyglyceryl-6 polyricinoleate": [
+    "oiliness"
+  ],
+  "sodium lauryl sulfoacetate": [
+    "oiliness"
+  ],
+  "tridecyl trimellitate": [
+    "moisture",
+    "oiliness"
+  ],
+  "acetyl tetrapeptide-2": [
+    "moisture",
+    "wrinkle"
+  ],
+  "microcitrus australasica fruit extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "betaine salicylate": [
+    "oiliness"
+  ],
+  "caprylic capric myristic stearic triglyceride": [
+    "moisture",
+    "oiliness"
+  ],
+  "dimethylmethoxy chromanol": [
+    "redness",
+    "wrinkle"
+  ],
+  "pulsatilla koreana extract": [
+    "oiliness"
+  ],
+  "hesperidin": [
+    "oiliness"
+  ],
+  "thioctic acid": [
+    "acne",
+    "redness"
+  ],
+  "butyl methoxydibenzoylmethane": [
+    "oiliness"
+  ],
+  "sodium methyl stearoyl taurate": [
+    "oiliness"
+  ],
+  "ulmus davidiana root extract": [
+    "moisture"
+  ],
+  "acetic acid": [
+    "moisture",
+    "oiliness"
+  ],
+  "ci 42090": [
+    "oiliness"
+  ],
+  "ci 77891": [
+    "oiliness"
+  ],
+  "biosaccharide gum-2": [
+    "moisture",
+    "wrinkle"
+  ],
+  "phenylethyl resorcinol": [
+    "age",
+    "wrinkle"
+  ],
+  "saccharomyces ferment": [
+    "moisture",
+    "wrinkle"
+  ],
+  "sodium cocoyl sarcosinate": [
+    "oiliness"
+  ],
+  "epigallocatechin gallate": [
+    "acne",
+    "redness"
+  ],
+  "padina pavonica thallus extract": [
+    "redness",
+    "wrinkle"
+  ],
+  "soy amino acids": [
+    "moisture",
+    "wrinkle"
+  ],
+  "symphytum officinale root extract": [
+    "oiliness",
+    "redness"
+  ],
+  "ci 19140": [
+    "oiliness",
+    "redness"
+  ],
+  "tasmannia lanceolata fruit leaf extract": [
+    "redness",
+    "wrinkle"
+  ],
+  "benzotriazolyl dodecyl p-cresol": [
+    "oiliness"
+  ],
+  "disodium coco-glucoside citrate": [
+    "acne",
+    "oiliness"
+  ],
+  "ozokerite": [
+    "oiliness"
+  ],
+  "hydrolyzed yeast extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "simethicone": [
+    "oiliness"
+  ],
+  "palmitoyl grapevine shoot extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "cocamidopropyl dimethylamine": [
+    "acne",
+    "oiliness"
+  ],
+  "hydroxymethoxyphenyl decanone": [
+    "wrinkle"
+  ],
+  "spiraea ulmaria extract": [
+    "oiliness",
+    "redness"
+  ],
+  "cetyl lactate": [
+    "moisture",
+    "oiliness"
+  ],
+  "chondrus crispus": [
+    "moisture",
+    "oiliness"
+  ],
+  "hexyl nicotinate": [
+    "moisture",
+    "redness"
+  ],
+  "hydroxypropyl tetrahydropyrantriol": [
+    "moisture",
+    "wrinkle"
+  ],
+  "tetrahydrodiferuloylmethane": [
+    "oiliness",
+    "redness"
+  ],
+  "acrylonitrile methyl methacrylate vinylidene chloride copolymer": [
+    "moisture",
+    "oiliness"
+  ],
+  "cera alba": [
+    "oiliness"
+  ],
+  "diethylhexyl carbonate": [
+    "oiliness"
+  ],
+  "pvm ma decadiene crosspolymer": [
+    "oiliness"
+  ],
+  "salix alba bark extract": [
+    "oiliness"
+  ],
+  "4-t-butylcyclohexanol": [
+    "redness",
+    "wrinkle"
+  ],
+  "ahnfeltia concinna extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "pyrus malus fruit extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "cholesteryl nonanoate": [
+    "oiliness"
+  ],
+  "sh-oligopeptide-2": [
+    "age",
+    "wrinkle"
+  ],
+  "bha": [
+    "moisture",
+    "wrinkle"
+  ],
+  "cyclotetrasiloxane": [
+    "oiliness",
+    "redness"
+  ],
+  "lactobacillus arundinaria gigantea ferment filtrate": [
+    "oiliness"
+  ],
+  "lactobacillus pumpkin ferment extract": [
+    "redness",
+    "wrinkle"
+  ],
+  "opuntia ficus-indica fruit extract": [
+    "moisture"
+  ],
+  "sodium chondroitin sulfate": [
+    "moisture",
+    "wrinkle"
+  ],
+  "disiloxane": [
+    "oiliness"
+  ],
+  "isobutane": [
+    "oiliness"
+  ],
+  "cocamidopropylamine oxide": [
+    "oiliness"
+  ],
+  "polypropylsilsesquioxane": [
+    "oiliness"
+  ],
+  "ppg-12-buteth-16": [
+    "moisture",
+    "oiliness"
+  ],
+  "quercetin": [
+    "oiliness",
+    "redness"
+  ],
+  "tea-lactate": [
+    "moisture"
+  ],
+  "zinc stearate": [
+    "moisture",
+    "oiliness"
+  ],
+  "ci 77007": [
+    "moisture",
+    "oiliness"
+  ],
+  "dodecane": [
+    "oiliness"
+  ],
+  "methyl diisopropyl propionamide": [
+    "moisture",
+    "oiliness"
+  ],
+  "ananas sativus fruit extract": [
+    "moisture",
+    "wrinkle"
+  ],
+  "avena sativa kernel extract": [
+    "acne",
+    "redness"
+  ],
+  "ci 77288": [
+    "oiliness"
+  ],
+  "hamamelis virginiana leaf extract": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "hydroxypropyl bispalmitamide mea": [
+    "moisture"
+  ],
+  "isocetyl stearoyl stearate": [
+    "oiliness"
+  ],
+  "oligopeptide-68": [
+    "age",
+    "wrinkle"
+  ],
+  "polysilicone-15": [
+    "oiliness"
+  ],
+  "styrax benzoin resin extract": [
+    "oiliness"
+  ],
+  "cetylhydroxyproline palmitamide": [
+    "moisture"
+  ],
+  "cholesteryl oleyl carbonate": [
+    "oiliness"
+  ],
+  "ci 17200": [
+    "oiliness"
+  ],
+  "epigallocatechin gallatyl glucoside": [
+    "redness",
+    "wrinkle"
+  ],
+  "gallyl glucoside": [
+    "oiliness"
+  ],
+  "raffinose": [
+    "moisture"
+  ],
+  "tetrahydrobisdemethoxydiferuloylmethane": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "tetrahydrodemethoxydiferuloylmethane": [
+    "oiliness"
+  ],
+  "benzophenone-5": [
+    "moisture",
+    "oiliness"
+  ],
+  "cassia alata leaf extract": [
+    "redness",
+    "wrinkle"
+  ],
+  "citrullus lanatus fruit extract": [
+    "redness",
+    "wrinkle"
+  ],
+  "ethyl menthane carboxamide": [
+    "moisture",
+    "wrinkle"
+  ],
+  "glutamylamidoethyl imidazole": [
+    "moisture",
+    "wrinkle"
+  ],
+  "hamamelis virginiana leaf water": [
+    "oiliness"
+  ],
+  "lonicera japonica flower extract": [
+    "acne",
+    "redness"
+  ],
+  "polyglucuronic acid": [
+    "moisture",
+    "wrinkle"
+  ],
+  "vitis vinifera seed extract": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "zea mays starch": [
+    "oiliness"
+  ],
+  "avena sativa kernel flour": [
+    "acne",
+    "oiliness"
+  ],
+  "cocos nucifera water": [
+    "moisture",
+    "oiliness"
+  ],
+  "disodium cocoamphodipropionate": [
+    "acne",
+    "oiliness"
+  ],
+  "ethyl oleate": [
+    "oiliness"
+  ],
+  "hamamelis virginiana bark leaf twig extract": [
+    "oiliness",
+    "redness"
+  ],
+  "rubus idaeus fruit extract": [
+    "acne",
+    "redness"
+  ],
+  "rumex acetosa leaf extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "arnica montana extract": [
+    "oiliness"
+  ],
+  "caffeyl glucoside": [
+    "redness",
+    "wrinkle"
+  ],
+  "candelilla cera": [
+    "moisture",
+    "oiliness"
+  ],
+  "ci 14700": [
+    "oiliness"
+  ],
+  "onsen-sui": [
+    "redness"
+  ],
+  "acrylates c12-22 alkyl methacrylate copolymer": [
+    "oiliness"
+  ],
+  "ammonium glycolate": [
+    "moisture",
+    "oiliness"
+  ],
+  "anthocyanins": [
+    "oiliness"
+  ],
+  "cholesteryl stearate": [
+    "oiliness"
+  ],
+  "lentinus edodes mycelium extract": [
+    "redness",
+    "wrinkle"
+  ],
+  "perfluorohexane": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "potassium alum": [
+    "oiliness"
+  ],
+  "ammonium xylenesulfonate": [
+    "moisture",
+    "oiliness"
+  ],
+  "ci 77947": [
+    "oiliness"
+  ],
+  "cyamopsis tetragonoloba gum": [
+    "oiliness"
+  ],
+  "hydrolyzed wheat protein pvp crosspolymer": [
+    "moisture",
+    "oiliness"
+  ],
+  "isodecyl salicylate": [
+    "moisture",
+    "oiliness"
+  ],
+  "lonicera caprifolium extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "palmitoyl hexapeptide-52": [
+    "wrinkle"
+  ],
+  "piper methysticum leaf root stem extract": [
+    "moisture"
+  ],
+  "ppg-15 stearyl ether benzoate": [
+    "oiliness"
+  ],
+  "styrax tonkinensis resin extract": [
+    "oiliness"
+  ],
+  "c30-45 alkyl dimethicone": [
+    "oiliness"
+  ],
+  "capsicum frutescens fruit extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "ci 45410": [
+    "moisture",
+    "oiliness"
+  ],
+  "ci 75470": [
+    "oiliness"
+  ],
+  "ci 77510": [
+    "oiliness"
+  ],
+  "erythrulose": [
+    "oiliness"
+  ],
+  "hydroxyphenoxy propionic acid": [
+    "wrinkle"
+  ],
+  "lactobacillus nereocystis luetkeana ferment filtrate": [
+    "moisture",
+    "oiliness"
+  ],
+  "perfluoroperhydrophenanthrene": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "potassium acrylates c10-30 alkyl acrylate crosspolymer": [
+    "oiliness"
+  ],
+  "propane": [
+    "oiliness"
+  ],
+  "sodium acrylates c10-30 alkyl acrylate crosspolymer": [
+    "oiliness"
+  ],
+  "acetyl glycyl beta-alanine": [
+    "wrinkle"
+  ],
+  "butane": [
+    "oiliness",
+    "redness"
+  ],
+  "ci 77742": [
+    "oiliness"
+  ],
+  "ethylhexyl dimethyl paba": [
+    "oiliness"
+  ],
+  "lactobacillus eriodictyon californicum ferment extract": [
+    "moisture",
+    "oiliness"
+  ],
+  "myristyl malate phosphonic acid": [
+    "moisture",
+    "wrinkle"
+  ],
+  "palmitoyl heptapeptide-18": [
+    "oiliness",
+    "wrinkle"
+  ],
+  "parabens": [
+    "moisture",
+    "wrinkle"
+  ],
+  "ppg-3 isostearyl methyl ether": [
+    "oiliness"
+  ],
+  "sh-decapeptide-7": [
+    "wrinkle"
+  ],
+  "triethoxysilylethyl polydimethylsiloxyethyl hexyl dimethicone": [
+    "oiliness"
+  ],
+  "triticum vulgare germ extract": [
+    "oiliness"
+  ]
+}

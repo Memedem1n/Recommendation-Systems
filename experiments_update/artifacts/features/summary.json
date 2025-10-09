@@ -1,0 +1,22 @@
+{
+  "product_count": 16556,
+  "matrix_shape": [
+    16556,
+    7
+  ],
+  "concern_labels": [
+    "redness",
+    "eyebag",
+    "acne",
+    "oiliness",
+    "wrinkle",
+    "age",
+    "moisture"
+  ],
+  "output_files": {
+    "product_profiles": "C:\\Users\\barut\\OneDrive\\Desktop\\BlueSenseRecommendation\\experiments_update\\artifacts\\features\\product_profiles.parquet",
+    "feature_matrices": "C:\\Users\\barut\\OneDrive\\Desktop\\BlueSenseRecommendation\\experiments_update\\artifacts\\features\\feature_matrices.npz",
+    "ingredient_concern_weights": "C:\\Users\\barut\\OneDrive\\Desktop\\BlueSenseRecommendation\\experiments_update\\artifacts\\features\\ingredient_concern_weights.parquet",
+    "ingredient_concern_candidates": "C:\\Users\\barut\\OneDrive\\Desktop\\BlueSenseRecommendation\\experiments_update\\artifacts\\features\\ingredient_concern_candidates.json"
+  }
+}
