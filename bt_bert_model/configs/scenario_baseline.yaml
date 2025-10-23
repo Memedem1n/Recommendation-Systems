@@ -1,0 +1,9 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+logging:
+  metrics_path: "outputs/experiments/scenario_baseline/metrics.json"
+  checkpoint_dir: "outputs/experiments/scenario_baseline/checkpoints"
+  attention_report_dir: "outputs/experiments/scenario_baseline/attention_reports"

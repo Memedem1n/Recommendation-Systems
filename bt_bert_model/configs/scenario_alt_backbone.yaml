@@ -1,0 +1,31 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+tokenizer:
+  pretrained_name: "bert-base-cased"
+  max_length: 512
+
+model:
+  pretrained_name: "bert-base-cased"
+  attention_scale: 18.0
+
+text_options:
+  ingredient_top_k: 50
+  include_product_name: true
+
+training:
+  batch_size: 6
+  num_epochs: 7
+  learning_rate: 2.0e-5
+  adamw_beta2: 0.97
+  weight_decay: 0.02
+  warmup_steps: 600
+  gradient_accumulation: 2
+  loss_positive_weight: auto
+
+logging:
+  metrics_path: "outputs/experiments/scenario_alt_backbone/metrics.json"
+  checkpoint_dir: "outputs/experiments/scenario_alt_backbone/checkpoints"
+  attention_report_dir: "outputs/experiments/scenario_alt_backbone/attention_reports"

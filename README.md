@@ -1,113 +1,128 @@
-<div align="center">
+# BlueSense Recommendation Systems
 
-# BlueSense — Data Pipeline and Hybrid Concern Recommendation Pilot
+This repository hosts every stage of the BlueSense cosmetics recommendation stack: data collection, normalisation, labelling, model training, and experiment notebooks. Each sub-directory includes its own documentation; this file provides the high-level map and workflow.
 
-<img alt="Python" src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white" />
-<img alt="pandas" src="https://img.shields.io/badge/pandas-2.x-150458?logo=pandas&logoColor=white" />
-<img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-1.x-F7931E?logo=scikitlearn&logoColor=white" />
+## Directory Overview
 
-</div>
-
-This repository contains a clean data pipeline for product/ingredient datasets, LLM‑free ingredient→concern enrichment, and a dynamic‑weighted hybrid recommendation prototype. It also ships a ready‑to‑present `.pptx` with charts.
-
-## Table of Contents
-- Overview
-- Repository Structure
-- Setup & Quickstart
-- Data Pipeline (Dataset_Pipeline)
-- Ingredient Knowledge Base Extensions
-- Model Training & Evaluation
-- Hybrid Scoring & Weight Calibration
-- Outputs & Presentation
-- Reproducibility & Tips
-
----
-
-## Overview
-- 16,556 products across 13 categories are normalized and merged into a unified schema.
-- Ingredient names are canonicalized via synonyms and fuzzy grouping (≥0.85 similarity).
-- Ingredient→Concern coverage is expanded with Excel labels, description‑keyword heuristics, category‑based “first ingredient” seeding, and a TF‑IDF + logistic classifier — all offline (no LLM).
-- Model selection uses GridSearchCV and probability calibration.
-- The hybrid score combines category/ingredient/name/model signals, applies dynamic weights based on category–concern match, adds a rarity boost for informative ingredients, and subtracts a small penalty for unknowns.
-
-## Repository Structure
-- `Dataset/` — Raw CSVs (by category)
-- `Dataset_Pipeline/` — Pipeline and artifacts
-  - `data_pipeline.py` — IO, canonicalization, merge utilities
-  - `unified_products.csv`, `ingredient_normalisation_map.csv`, `unique_ingredients.csv`
-- `Experiments/Hybrid_Concern_Test/` — Hybrid notebook + outputs
-  - `Hybrid_Concern_Test.ipynb`
-  - `Experiments/Hybrid_Concern_Test/recommendations.csv`, `bundles.csv`
-- `Hybrid_Concern_Presentation.pptx` — Auto‑generated presentation
-
-## Setup & Quickstart
-Requirements: Python 3.11, `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`, `openpyxl`, `python-pptx`.
-
-```bash
-pip install pandas numpy scikit-learn seaborn matplotlib openpyxl python-pptx
+```
+.
+|- bt_bert_model/            # Concern classification model, configs, data splits, SLURM jobs
+|- Dataset/                  # Raw category-level scrapes from the EWG Skin Deep catalogue
+|- Dataset_Pipeline/         # Ingredient and product normalisation scripts and notebooks
+|- Ewg_Scraper/              # Selenium-based scrapers (tracked as a Git submodule)
+|- Experiments/              # Hybrid concern notebooks, configs, cached recommendation bundles
+|- about_ingredients.json    # Consolidated ingredient metadata
+|- ingredient_concern_map.xlsx
 ```
 
-Run options:
-- Open and execute `Experiments/Hybrid_Concern_Test/Hybrid_Concern_Test.ipynb` end‑to‑end.
-- Or generate the PPTX from repo root:
-  ```bash
-  python generate_presentation.py
-  ```
+### Key Components
 
-> Note: LLM enrichment is disabled; all expansion steps are offline.
+- `bt_bert_model/` – End-to-end BT-BERT implicit concern classifier: data prep, training, evaluation, explainability, and automated experiment manager. See `bt_bert_model/README.md`.
+- `Ewg_Scraper/` – Production scraper suite with reusable Selenium helpers and category-specific runners. Clone the repository with submodules to keep it in sync with its upstream origin.
+- `Dataset/` – Category CSV exports (`Anti-aging.csv`, `Mask_part1.csv`, `Serums__Essences.csv`, etc.) produced by the scraper.
+- `Dataset_Pipeline/` – Utilities for merging raw CSVs, standardising ingredient names, and generating unified product tables.
+- `Experiments/Hybrid_Concern_Test/` – Reference configs (`config.yaml`), a Jupyter notebook, and cached outputs for blending rule-based scores with BT-BERT predictions.
 
-## Data Pipeline (Dataset_Pipeline)
-Main steps (`Dataset_Pipeline/data_pipeline.py`):
-1) Category normalization — canonical labels from raw file names.
-2) Ingredient canonicalization — manual synonyms + fuzzy (≥0.85) + numeric signatures.
-3) Schema unification — align column sets and concatenate.
-4) Product ID rebuild — shuffle (random_state=42) then assign `product_id`.
-5) Ingredient lists — `ingredients_list_raw/normalised` and counts per product.
+## Getting Started
 
-Artifacts produced:
-- `Dataset_Pipeline/unified_products.csv` — clean product table
-- `Dataset_Pipeline/ingredient_normalisation_map.csv` — raw→normal→canonical map
-- `Dataset_Pipeline/unique_ingredients.csv` — 18,018 unique canonical ingredients
+1. **Clone with submodules**
+   ```bash
+   git clone --recurse-submodules https://github.com/<your-account>/Recommendation-Systems.git
+   cd Recommendation-Systems
+   ```
+   Already cloned? Run:
+   ```bash
+   git submodule update --init --recursive
+   ```
 
-## Ingredient Knowledge Base Extensions
-- Excel labels → initial dictionary (`ingredient_concern_candidates`).
-- Description heuristics → concern keywords mined from JSON descriptions.
-- Category‑based “first ingredient” → for each concern, from matching categories take the first non‑water ingredient as a weak label (with thresholds and balance).
-- TF‑IDF + multi‑label LR → add up to two concerns per ingredient if probability passes a configurable threshold.
+2. **Create a Python environment**
+   ```bash
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1   # Windows PowerShell
+   python -m pip install --upgrade pip
+   python -m pip install -r bt_bert_model/requirements.txt
+   ```
+   Install scraper dependencies when scraping fresh data:
+   ```bash
+   python -m pip install -r Ewg_Scraper/requirements.txt
+   ```
 
-Coverage tracking (example): Excel → +A, Descriptions → +B, Category First → +C, TF‑IDF → +D; final coverage is compared to `unique_ingredients`.
+3. **Expose local packages (optional)**
+   The downstream scripts expect `Dataset_Pipeline` to be importable. Either install it in editable mode:
+   ```bash
+   python -m pip install -e Dataset_Pipeline
+   ```
+   or export `PYTHONPATH=%CD%`.
 
-## Model Training & Evaluation
-Features: `ing_*`, `rare_*` (rarity boost), `cat_*`, `name_*`, `total_*`, `unknown_ratio`.
+## Typical Workflow
 
-- Split: `StratifiedShuffleSplit` (80/20) with per‑class presence guaranteed.
-- Selection: `LogisticRegression` via `GridSearchCV` (3‑fold, `C∈{0.5,1.0,1.5}`) + `CalibratedClassifierCV (isotonic)`.
-- Baselines: RF/GB/KNN with 3‑fold `f1_macro`.
+1. **Scrape source data**
+   - Configure category drivers in `Ewg_Scraper/Ready_Scrapers/`.
+   - Run `python Ready_Scrapers/run_parallel_scrapers.py` to generate fresh CSV files per category.
+   - Inspect `Ready_Scrapers/url_cache/` to confirm pagination coverage.
 
-Illustrative outcomes (may vary with environment):
-- Calibrated Logistic test macro F1 ≈ 0.94–0.97; accuracy ≈ 97%
-- Baselines: GB ≈ 0.975 macro F1, RF ≈ 0.968, KNN ≈ 0.92
+2. **Normalise products and ingredients**
+   - Execute `Dataset_Pipeline/data_pipeline.py` or walk through `Data_Normalisation_Pipeline.ipynb`.
+   - Outputs include:
+     - `unified_products.csv`
+     - `ingredient_normalisation_map.csv`
+     - `unique_ingredients.csv`
 
-## Hybrid Scoring & Weight Calibration
-Signals: Category, Ingredient (with rarity), Name, Model; plus `unknown_penalty`.
+3. **Label and split data for BT-BERT**
+   ```bash
+   python bt_bert_model/src/data_prep.py --config bt_bert_model/config.yaml
+   ```
+   Generates `labels.csv`, `train.csv`, `val.csv`, `test.csv`, and `label_summary.json` under `bt_bert_model/data/`.
 
-- Dynamic weights: if the user’s top concern matches the category’s primary concern, increase category weight; otherwise strengthen ingredient+name (keeping the total fixed).
-- Weight search: 3×3×3 grid scored by both hit‑rate and nDCG@5; best combo selected.
-- Example defaults: Category 0.50, Ingredient 0.20, Name 0.10, Model 0.20.
+4. **Train and evaluate BT-BERT**
+   ```bash
+   python bt_bert_model/src/train.py --config bt_bert_model/config.yaml
+   python bt_bert_model/src/evaluate.py --config bt_bert_model/config.yaml \
+       --checkpoint bt_bert_model/outputs/checkpoints/bt_bert_epoch1.pt \
+       --split test \
+       --output bt_bert_model/outputs/eval_metrics.json
+   ```
+   Switch configs in `bt_bert_model/configs/` for scenario experiments or drive sweeps via `src/experiment_manager.py` (see the subproject README).
 
-## Outputs & Presentation
-- Recommendations: `Experiments/Hybrid_Concern_Test/Experiments/Hybrid_Concern_Test/recommendations.csv`
-- Bundles: `Experiments/Hybrid_Concern_Test/Experiments/Hybrid_Concern_Test/bundles.csv`
-- Presentation: `Hybrid_Concern_Presentation.pptx` (auto‑generated)
+5. **Blend with rule-based heuristics**
+   - Open `Experiments/Hybrid_Concern_Test/Hybrid_Concern_Test.ipynb`.
+   - Load the latest BT-BERT outputs and `product_concern_weights.csv`.
+   - Export hybrid recommendations to `Experiments/Hybrid_Concern_Test/Experiments/Hybrid_Concern_Test/`.
 
-> CSV columns include score components (`category_component`, `ingredient_component`, `name_component`, `model_component`, `unknown_penalty`) and concern/model probabilities.
+## Hugging Face Cache (offline clusters)
 
-## Reproducibility & Tips
-- LLM is off; all enrichment is offline and deterministic given seeds.
-- For stability on Windows, `n_jobs=1` is used in heavy CV blocks.
-- Notebook cells include detailed Markdown notes; the PPT summarizes key visuals and outcomes.
+Cluster nodes without internet access must pre-download transformer weights:
+```bash
+python -c "from huggingface_hub import snapshot_download; snapshot_download('bert-base-uncased', cache_dir='C:/Users/barut/hf_cache')"
+scp -r C:/Users/barut/hf_cache <user>@<cluster-host>:~/hf_cache
+```
+SLURM scripts inside `bt_bert_model/scripts/` set `HF_HOME`, `HF_HUB_CACHE`, and `TRANSFORMERS_OFFLINE=1` so training remains offline.
 
----
+## Large Artefacts
 
-Questions or feedback: the “Diagnostics” section in `Experiments/Hybrid_Concern_Test/Hybrid_Concern_Test.ipynb` provides quick visuals to inspect distributions and confidence. You can also tweak weights and thresholds via the `CONFIG` block in the notebook.
+- `bt_bert_model/outputs/checkpoints/` – PyTorch checkpoints; keep only the necessary ones to limit repository size.
+- `bt_bert_model/Papers/` – Supporting literature for experimentation.
+- `Experiments/Hybrid_Concern_Test/product_concern_weights.csv` – Current weighting table used by the hybrid recommender.
+- Root-level JSON/XLS files – Ingredient metadata consumed by both the pipeline and the model.
 
+## Data Integrity Checklist
+
+- Ensure new scrapes populate `id`, `category`, `product_url`, `name`, and `ingredients` columns before feeding them into the pipeline.
+- Rerun `Dataset_Pipeline` when ingredient mappings change.
+- Regenerate BT-BERT data splits after schema updates to avoid stale labels.
+
+## Git Workflow Notes
+
+- Commit inside `Ewg_Scraper/` first; the root repository tracks only the submodule pointer.
+- After updating the scraper, run `git add Ewg_Scraper` from the root to record the new submodule revision.
+- Add `.gitmodules` to version control so collaborators can initialise the scraper submodule automatically.
+- Prefer storing large intermediate outputs outside the repository when possible (release archives, object storage, etc.).
+
+## References
+
+- `bt_bert_model/README.md` – Model configuration, experiment manager usage, and explainability tooling.
+- `Ewg_Scraper/README.md` – Scraper configuration, batching strategy, and troubleshooting.
+- `Dataset_Pipeline/Data_Normalisation_Pipeline.ipynb` – Guided walkthrough of the cleansing pipeline.
+- `Experiments/Hybrid_Concern_Test/Hybrid_Concern_Test.ipynb` – Notebook that merges concern scores from multiple sources.
+
+With these components you can progress from raw EWG pages to trained concern classifiers and hybrid recommendation bundles ready for downstream products.

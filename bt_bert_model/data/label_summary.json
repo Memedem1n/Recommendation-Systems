@@ -1,0 +1,30 @@
+{
+  "acne": {
+    "positive": 7887,
+    "negative": 8669
+  },
+  "age": {
+    "positive": 6863,
+    "negative": 9693
+  },
+  "eyebag": {
+    "positive": 1558,
+    "negative": 14998
+  },
+  "moisture": {
+    "positive": 14393,
+    "negative": 2163
+  },
+  "oiliness": {
+    "positive": 7841,
+    "negative": 8715
+  },
+  "redness": {
+    "positive": 8023,
+    "negative": 8533
+  },
+  "wrinkle": {
+    "positive": 7876,
+    "negative": 8680
+  }
+}

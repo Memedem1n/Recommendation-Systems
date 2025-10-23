@@ -1,0 +1,36 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+data:
+  unified_products_path: "data/raw/unified_products.csv"
+  label_output_dir: "data"
+  train_csv: "train_pseudo_aug.csv"
+
+text_options:
+  ingredient_top_k: 55
+  include_product_name: true
+
+augmentation:
+  enabled: true
+  base_train_csv: "train.csv"
+  output_train_csv: "train_pseudo_aug.csv"
+  predictions_split: "train"
+  positive_threshold: 0.88
+  negative_threshold: 0.12
+
+training:
+  batch_size: 8
+  num_epochs: 6
+  learning_rate: 2.4e-5
+  adamw_beta2: 0.95
+  weight_decay: 0.012
+  warmup_steps: 300
+  gradient_accumulation: 1
+  loss_positive_weight: auto
+
+logging:
+  metrics_path: "outputs/experiments/scenario_pseudo_augment/metrics.json"
+  checkpoint_dir: "outputs/experiments/scenario_pseudo_augment/checkpoints"
+  attention_report_dir: "outputs/experiments/scenario_pseudo_augment/attention_reports"

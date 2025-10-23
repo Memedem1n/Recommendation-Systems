@@ -1,0 +1,35 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+text_options:
+  include_product_name: true
+  ingredient_top_k: 58
+  ingredient_separator: ", "
+
+keyword_positive_map:
+  calming: [redness]
+  soothing: [redness]
+  firming: [wrinkle, age]
+  hydrating: [moisture]
+  detox: [oiliness]
+  clarifying: [acne]
+
+keyword_negative_map:
+  mattifying: [moisture]
+  anti-shine: [moisture]
+
+training:
+  batch_size: 8
+  num_epochs: 6
+  learning_rate: 2.6e-5
+  adamw_beta2: 0.95
+  weight_decay: 0.013
+  warmup_steps: 400
+  gradient_accumulation: 1
+
+logging:
+  metrics_path: "outputs/experiments/scenario_keyword_boost/metrics.json"
+  checkpoint_dir: "outputs/experiments/scenario_keyword_boost/checkpoints"
+  attention_report_dir: "outputs/experiments/scenario_keyword_boost/attention_reports"

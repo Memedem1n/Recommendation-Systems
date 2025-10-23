@@ -1,0 +1,26 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+text_options:
+  include_concern_prompt: true
+  include_category: true
+  include_product_name: true
+  ingredient_top_k: 52
+  ingredient_separator: "; "
+  extra_context: "Highlight how ingredients address the stated concern."
+
+training:
+  batch_size: 8
+  num_epochs: 6
+  learning_rate: 2.6e-5
+  adamw_beta2: 0.95
+  weight_decay: 0.015
+  warmup_steps: 400
+  gradient_accumulation: 1
+
+logging:
+  metrics_path: "outputs/experiments/scenario_category_prompt/metrics.json"
+  checkpoint_dir: "outputs/experiments/scenario_category_prompt/checkpoints"
+  attention_report_dir: "outputs/experiments/scenario_category_prompt/attention_reports"

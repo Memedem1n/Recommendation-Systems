@@ -1,0 +1,25 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+text_options:
+  ingredient_top_k: 60
+  repeat_top_n: 8
+  repeat_factor: 3
+  include_product_name: true
+  ingredient_separator: ", "
+
+training:
+  batch_size: 8
+  num_epochs: 7
+  learning_rate: 2.0e-5
+  adamw_beta2: 0.98
+  weight_decay: 0.012
+  warmup_steps: 400
+  gradient_accumulation: 1
+
+logging:
+  metrics_path: "outputs/experiments/scenario_repeat_emphasis/metrics.json"
+  checkpoint_dir: "outputs/experiments/scenario_repeat_emphasis/checkpoints"
+  attention_report_dir: "outputs/experiments/scenario_repeat_emphasis/attention_reports"

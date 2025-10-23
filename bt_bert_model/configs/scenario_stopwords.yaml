@@ -1,0 +1,30 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+text_options:
+  ingredient_top_k: 55
+  include_product_name: true
+  ingredient_separator: ", "
+  exclude_ingredients:
+    - water
+    - aqua
+    - fragrance
+    - parfum
+    - alcohol
+    - mica
+
+training:
+  batch_size: 8
+  num_epochs: 6
+  learning_rate: 2.2e-5
+  adamw_beta2: 0.95
+  weight_decay: 0.012
+  warmup_steps: 200
+  gradient_accumulation: 1
+
+logging:
+  metrics_path: "outputs/experiments/scenario_stopwords/metrics.json"
+  checkpoint_dir: "outputs/experiments/scenario_stopwords/checkpoints"
+  attention_report_dir: "outputs/experiments/scenario_stopwords/attention_reports"

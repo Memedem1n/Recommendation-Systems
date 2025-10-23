@@ -1,0 +1,23 @@
+# Python cache and build artefacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Editor configuration
+.vscode/
+.idea/
+
+# Local logs
+*.log
+
+# Model checkpoints and generated weights
+bt_bert_model/outputs/checkpoints/
+

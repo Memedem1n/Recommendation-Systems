@@ -1,9 +1,0 @@
-{
-  "total_users": 21,
-  "mean_overlap_ratio": 0.2670068027210884,
-  "mean_score_diff": 0.01751546512734048,
-  "predicted_match_rate_old": 0.8000000000000002,
-  "predicted_match_rate_new": 0.7714285714285716,
-  "duplicate_count_old_total": 6,
-  "duplicate_count_new_total": 0
-}
