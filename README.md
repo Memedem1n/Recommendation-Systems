@@ -1,4 +1,4 @@
-# BlueSense Recommendation Systems
+# Recommendation Systems
 
 This repository hosts every stage of the BlueSense cosmetics recommendation stack: data collection, normalisation, labelling, model training, and experiment notebooks. Each sub-directory includes its own documentation; this file provides the high-level map and workflow.
 
