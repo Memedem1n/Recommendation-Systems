@@ -1,128 +1,110 @@
 # Recommendation Systems
 
-This repository hosts every stage of the BlueSense cosmetics recommendation stack: data collection, normalisation, labelling, model training, and experiment notebooks. Each sub-directory includes its own documentation; this file provides the high-level map and workflow.
+BlueSense Recommendation Systems combines data ingestion, canonicalisation, model training, and serving so we can deliver skin concern recommendations from a single project. The repository holds the scraping utilities, the BT-BERT concern classifier, notebooks that orchestrate the full workflow, and the FastAPI service that powers user-facing recommendations.
 
-## Directory Overview
+## How the pieces fit
 
+1. **Data acquisition**  
+   `Ewg_Scraper/` fetches raw category pages from the EWG Skin Deep catalogue. Each run deposits category specific CSV files in `Dataset/`.
+2. **Canonical data pipeline**  
+   The scripts and notebooks in `Dataset_Pipeline/` clean ingredient names, merge duplicate products, and export a harmonised catalogue (`unified_products.csv`) together with ingredient metadata.
+3. **Concern labelling and dataset build**  
+   `bt_bert_model/src/data_prep.py` converts the harmonised catalogue into BT-BERT ready splits (`train.csv`, `val.csv`, `test.csv`) and produces concern frequency reports for auditing.
+4. **BT-BERT fine-tuning**  
+   Training, evaluation, and experiment management live under `bt_bert_model/`. Fine-tuned checkpoints are stored in `bt_bert_model/outputs/`. A checkpoint exported from the cluster (for example `outputs/new_bt_bert/hp_0/bt_bert_epoch1.pt`) is the default model used by notebooks and the service.
+5. **Product-to-concern scoring**  
+   Inference utilities (`service/recommender.py`) load the trained model, calculate concern scores for every product, and cache them for downstream consumers.
+6. **End-to-end demonstration**  
+   `Experiments/Hybrid_Concern_Test/Full_Pipeline.ipynb` orchestrates the entire workflow: data preparation recap, loading the trained model, generating product concern tables, defining demo users, and producing recommendation lists ready to present.
+7. **Serving layer**  
+   `service/main.py` exposes the recommender through a FastAPI application with health, concern catalogue, and recommendation endpoints.
+
+## Repository layout
+
+- `bt_bert_model/` - BT-BERT configs, training scripts, experiment manager, and model checkpoints.
+- `Dataset/` - Raw category exports produced by the scraper.
+- `Dataset_Pipeline/` - Normalisation scripts and helper notebooks that transform raw CSVs into canonical datasets.
+- `Ewg_Scraper/` - Selenium based scrapers (kept as a submodule so you can pull updates independently).
+- `Experiments/Hybrid_Concern_Test/` - End-to-end pipeline notebook, cached outputs, and concern scoring experiments.
+- `service/` - FastAPI entrypoint, configuration, and reusable recommender wrapper.
+- `cluster_package.zip` - Ready-to-upload bundle that contains the files required to reproduce training on the rorqual cluster.
+- `requirements-service.txt` - Minimal dependency set for running the service outside of the full training environment.
+
+## Environment setup
+
+The repository ships with two Python workflows:
+
+1. **Full training environment** (GPU ready) defined by `bt_bert_model/requirements.txt`.
+2. **Lightweight CPU service environment** defined by `requirements-service.txt`, which also pins `pydantic<2` so the service modules can be imported from notebooks.
+
+Recommended steps on Windows PowerShell:
+
+```powershell
+python -m venv .venv_cpu
+.\.venv_cpu\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r bt_bert_model/requirements.txt
+python -m pip install -r requirements-service.txt
 ```
-.
-|- bt_bert_model/            # Concern classification model, configs, data splits, SLURM jobs
-|- Dataset/                  # Raw category-level scrapes from the EWG Skin Deep catalogue
-|- Dataset_Pipeline/         # Ingredient and product normalisation scripts and notebooks
-|- Ewg_Scraper/              # Selenium-based scrapers (tracked as a Git submodule)
-|- Experiments/              # Hybrid concern notebooks, configs, cached recommendation bundles
-|- about_ingredients.json    # Consolidated ingredient metadata
-|- ingredient_concern_map.xlsx
+
+If you only need the service or the pipeline notebooks you may install the smaller requirement set and skip GPU specific packages.
+
+## Running the full pipeline notebook
+
+`Experiments/Hybrid_Concern_Test/Full_Pipeline.ipynb` is the canonical demonstration:
+
+- The first section documents data preparation assumptions and points to the scripts that generate the harmonised datasets.
+- The notebook loads the fine-tuned BT-BERT checkpoint from `bt_bert_model/outputs/new_bt_bert/hp_0/`.
+- Product concern scores are generated inside the notebook and stored in memory for recommendation steps.
+- Seven demo users are created with distinct dominant concerns so you can verify the recommendation ranking.
+- The final section prints ranked product slates per user and can be adapted to feed QA scenarios or UI prototypes.
+
+Run the notebook with the `.venv_cpu` kernel to avoid pydantic version conflicts. GPU execution is optional because inference runs comfortably on CPU.
+
+## Recommendation service quickstart
+
+1. Activate your environment.
+2. Install dependencies if you have not already: `python -m pip install -r requirements-service.txt`.
+3. Ensure the checkpoint exists at `bt_bert_model/outputs/new_bt_bert/hp_0/bt_bert_epoch1.pt` (replace the path with your preferred checkpoint if needed).
+4. Launch the API:
+
+```powershell
+uvicorn service.main:app --host 0.0.0.0 --port 8000
 ```
 
-### Key Components
+Key endpoints:
+- `GET /health` - verifies paths, model version, and dataset freshness.
+- `GET /concerns` - returns the concern vocabulary supported by the loaded checkpoint.
+- `POST /recommendations` - accepts a concern, optional filters (`top_k`, `category`, `include_only`), and yields ranked products.
 
-- `bt_bert_model/` – End-to-end BT-BERT implicit concern classifier: data prep, training, evaluation, explainability, and automated experiment manager. See `bt_bert_model/README.md`.
-- `Ewg_Scraper/` – Production scraper suite with reusable Selenium helpers and category-specific runners. Clone the repository with submodules to keep it in sync with its upstream origin.
-- `Dataset/` – Category CSV exports (`Anti-aging.csv`, `Mask_part1.csv`, `Serums__Essences.csv`, etc.) produced by the scraper.
-- `Dataset_Pipeline/` – Utilities for merging raw CSVs, standardising ingredient names, and generating unified product tables.
-- `Experiments/Hybrid_Concern_Test/` – Reference configs (`config.yaml`), a Jupyter notebook, and cached outputs for blending rule-based scores with BT-BERT predictions.
+Logs default to `bt_bert_model/outputs/recommendation_logs.jsonl`. Set `BLUESENSE_RECOMMENDATION_LOG_PATH` to stream logs elsewhere.
 
-## Getting Started
+## Training on the rorqual cluster
 
-1. **Clone with submodules**
-   ```bash
-   git clone --recurse-submodules https://github.com/<your-account>/Recommendation-Systems.git
-   cd Recommendation-Systems
-   ```
-   Already cloned? Run:
-   ```bash
-   git submodule update --init --recursive
-   ```
+`cluster_package.zip` bundles the configuration, scripts, and minimal data required to launch training jobs on the cluster. Upload the archive to your home directory, extract it, and submit jobs with the SLURM scripts under `bt_bert_model/scripts/`. The scripts set `TRANSFORMERS_OFFLINE=1` so you can point `HF_HOME` at a pre-populated Hugging Face cache when the cluster has no internet access.
 
-2. **Create a Python environment**
-   ```bash
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1   # Windows PowerShell
-   python -m pip install --upgrade pip
-   python -m pip install -r bt_bert_model/requirements.txt
-   ```
-   Install scraper dependencies when scraping fresh data:
-   ```bash
-   python -m pip install -r Ewg_Scraper/requirements.txt
-   ```
+## Artefact locations
 
-3. **Expose local packages (optional)**
-   The downstream scripts expect `Dataset_Pipeline` to be importable. Either install it in editable mode:
-   ```bash
-   python -m pip install -e Dataset_Pipeline
-   ```
-   or export `PYTHONPATH=%CD%`.
+- Model checkpoints: `bt_bert_model/outputs/new_bt_bert/hp_0/`.
+- Thresholds and concern metadata: `bt_bert_model/outputs/new_bt_bert/hp_0/thresholds.json`.
+- Canonical product catalogue: `Dataset_Pipeline/output/unified_products.csv`.
+- Notebook exports: `Experiments/Hybrid_Concern_Test/Full_Pipeline.ipynb` and the paired `Full_Pipeline.py` script (generated via Jupytext for version control).
+- Service configuration defaults: `service/config.py`.
 
-## Typical Workflow
+Keep large intermediate CSVs and caches outside the repository when possible to reduce noise in git history.
 
-1. **Scrape source data**
-   - Configure category drivers in `Ewg_Scraper/Ready_Scrapers/`.
-   - Run `python Ready_Scrapers/run_parallel_scrapers.py` to generate fresh CSV files per category.
-   - Inspect `Ready_Scrapers/url_cache/` to confirm pagination coverage.
+## Roadmap
 
-2. **Normalise products and ingredients**
-   - Execute `Dataset_Pipeline/data_pipeline.py` or walk through `Data_Normalisation_Pipeline.ipynb`.
-   - Outputs include:
-     - `unified_products.csv`
-     - `ingredient_normalisation_map.csv`
-     - `unique_ingredients.csv`
+- Automate nightly EWG scraping and pipeline refresh with scheduler friendly entry points.
+- Add data quality checks to the dataset pipeline (ingredient coverage, duplicate detection, concern distribution drift).
+- Containerise the FastAPI service with GPU optional images for on-prem deployments.
+- Implement evaluation dashboards that compare notebook generated recommendations against production logs.
+- Expand unit and integration tests around `service/recommender.py` to guard against regression when swapping checkpoints.
 
-3. **Label and split data for BT-BERT**
-   ```bash
-   python bt_bert_model/src/data_prep.py --config bt_bert_model/config.yaml
-   ```
-   Generates `labels.csv`, `train.csv`, `val.csv`, `test.csv`, and `label_summary.json` under `bt_bert_model/data/`.
+## See also
 
-4. **Train and evaluate BT-BERT**
-   ```bash
-   python bt_bert_model/src/train.py --config bt_bert_model/config.yaml
-   python bt_bert_model/src/evaluate.py --config bt_bert_model/config.yaml \
-       --checkpoint bt_bert_model/outputs/checkpoints/bt_bert_epoch1.pt \
-       --split test \
-       --output bt_bert_model/outputs/eval_metrics.json
-   ```
-   Switch configs in `bt_bert_model/configs/` for scenario experiments or drive sweeps via `src/experiment_manager.py` (see the subproject README).
+- `bt_bert_model/README.md` for detailed training and experiment manager documentation.
+- `Dataset_Pipeline/` notebooks for canonicalisation logic and ingredient mapping audits.
+- `service/README.md` (if present) for deployment specifics.
 
-5. **Blend with rule-based heuristics**
-   - Open `Experiments/Hybrid_Concern_Test/Hybrid_Concern_Test.ipynb`.
-   - Load the latest BT-BERT outputs and `product_concern_weights.csv`.
-   - Export hybrid recommendations to `Experiments/Hybrid_Concern_Test/Experiments/Hybrid_Concern_Test/`.
-
-## Hugging Face Cache (offline clusters)
-
-Cluster nodes without internet access must pre-download transformer weights:
-```bash
-python -c "from huggingface_hub import snapshot_download; snapshot_download('bert-base-uncased', cache_dir='C:/Users/barut/hf_cache')"
-scp -r C:/Users/barut/hf_cache <user>@<cluster-host>:~/hf_cache
-```
-SLURM scripts inside `bt_bert_model/scripts/` set `HF_HOME`, `HF_HUB_CACHE`, and `TRANSFORMERS_OFFLINE=1` so training remains offline.
-
-## Large Artefacts
-
-- `bt_bert_model/outputs/checkpoints/` – PyTorch checkpoints; keep only the necessary ones to limit repository size.
-- `bt_bert_model/Papers/` – Supporting literature for experimentation.
-- `Experiments/Hybrid_Concern_Test/product_concern_weights.csv` – Current weighting table used by the hybrid recommender.
-- Root-level JSON/XLS files – Ingredient metadata consumed by both the pipeline and the model.
-
-## Data Integrity Checklist
-
-- Ensure new scrapes populate `id`, `category`, `product_url`, `name`, and `ingredients` columns before feeding them into the pipeline.
-- Rerun `Dataset_Pipeline` when ingredient mappings change.
-- Regenerate BT-BERT data splits after schema updates to avoid stale labels.
-
-## Git Workflow Notes
-
-- Commit inside `Ewg_Scraper/` first; the root repository tracks only the submodule pointer.
-- After updating the scraper, run `git add Ewg_Scraper` from the root to record the new submodule revision.
-- Add `.gitmodules` to version control so collaborators can initialise the scraper submodule automatically.
-- Prefer storing large intermediate outputs outside the repository when possible (release archives, object storage, etc.).
-
-## References
-
-- `bt_bert_model/README.md` – Model configuration, experiment manager usage, and explainability tooling.
-- `Ewg_Scraper/README.md` – Scraper configuration, batching strategy, and troubleshooting.
-- `Dataset_Pipeline/Data_Normalisation_Pipeline.ipynb` – Guided walkthrough of the cleansing pipeline.
-- `Experiments/Hybrid_Concern_Test/Hybrid_Concern_Test.ipynb` – Notebook that merges concern scores from multiple sources.
-
-With these components you can progress from raw EWG pages to trained concern classifiers and hybrid recommendation bundles ready for downstream products.
+With these components you can reproduce the full BlueSense workflow: scrape, normalise, train, package, and serve concern aware product recommendations.
