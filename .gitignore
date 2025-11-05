@@ -10,6 +10,7 @@ ENV/
 env/
 env.bak/
 venv.bak/
+.venv_gpu/
 
 # Editor configuration
 .vscode/
@@ -21,3 +22,10 @@ venv.bak/
 # Model checkpoints and generated weights
 bt_bert_model/outputs/checkpoints/
 
+# Local experiment artefacts
+Experiments/data/
+bt_bert_model/data/
+bt_bert_model/outputs/
+
+# Large archives
+*.zip

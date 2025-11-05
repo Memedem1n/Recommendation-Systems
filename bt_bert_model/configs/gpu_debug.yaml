@@ -1,0 +1,18 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+data:
+  train_csv: "train_debug_gpu.csv"
+  val_csv: "val_debug_gpu.csv"
+
+training:
+  num_epochs: 1
+  batch_size: 16
+  gradient_accumulation: 1
+  learning_rate: 2.5e-5
+
+logging:
+  metrics_path: "outputs/experiments/gpu_debug/metrics.json"
+  checkpoint_dir: "outputs/experiments/gpu_debug/checkpoints"

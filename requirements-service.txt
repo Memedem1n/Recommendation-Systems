@@ -1,0 +1,5 @@
+-r bt_bert_model/requirements.txt
+fastapi>=0.111,<0.112
+uvicorn[standard]>=0.30,<0.31
+pydantic>=2.6,<3.0
+python-dotenv>=1.0,<2.0

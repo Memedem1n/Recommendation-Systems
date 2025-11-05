@@ -1,0 +1,17 @@
+extends: ../config.yaml
+
+project:
+  base_dir: ".."
+
+data:
+  train_csv: "train_debug.csv"
+  val_csv: "val_debug.csv"
+
+training:
+  num_epochs: 1
+  batch_size: 8
+  gradient_accumulation: 1
+
+logging:
+  metrics_path: "outputs/experiments/local_debug/metrics.json"
+  checkpoint_dir: "outputs/experiments/local_debug/checkpoints"
